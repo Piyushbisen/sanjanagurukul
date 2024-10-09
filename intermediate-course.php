@@ -22,7 +22,7 @@
 	<div class="row">
 			<div class="col-md-12">
 				<div class="heading wow fadeInUp">
-					<h2 style="text-transform: none; font-family: 'Fraunces', serif; color:white; font-size:50px; color:white !important;     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);"> <span style="color:#ffd64a; font-family: 'Fraunces', serif;">BEGINNER
+					<h2 style="text-transform: none; font-family: 'Fraunces', serif; color:white; font-size:50px; color:white !important;     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);"> <span style="color:#ffd64a; font-family: 'Fraunces', serif;">INTERMEDIATE
                     </span><br>HINDI COURSE</h2>
                     <div class="row">
                         <div class="col-md-6" style="">
@@ -35,9 +35,8 @@
                             </p>
                         </div>
                         <div class="col-md-6">
-                            <p class="duration" style="font-weight:600; margin-top:20px; color:white; font-family: 'Fraunces', serif; font-size:25px">
                                 <span class="separatortwo"></span>
-                                <i class="fa fa-play-circle-o" style="font-size:30px; margin-right:5px"></i> Build a strong foundation in basic vocabulary, grammar, and everyday conversations. 
+                                <i class="fa fa-play-circle-o" style="font-size:30px; margin-right:5px"></i> Deepen language skills with complex sentence structures, tenses, and professional or cultural vocabulary.
                             </p>
                         </div>
                     </div>
@@ -66,15 +65,14 @@
     
     <div class="row" style="margin-left:0px; margin-right:0px;">
             <div class="col-md-6">
-                <img src="<?php echo BASE_URL; ?>assets/uploads/file-18.png" style="width:100%; height: 700px;" alt="Your Image Description" class="img-fluid">
+                <img src="<?php echo BASE_URL; ?>assets/uploads/file-19.png" style="width:100%; height: 700px;" alt="Your Image Description" class="img-fluid">
             </div>
             <div class="col-md-6" style=" padding:30px; min-height: 700px;">
                 <p style="color: white; font-size:22px; line-height:35px; font-family: 'Lora', serif !important;"><span style="text-transform: none; font-family: 'Fraunces', serif; color:#ffd64a; font-size:30px; font-weight:600; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);">Course Overview</span>
                 <br><br>
-                Our Beginner Hindi Course is designed for learners with little to no prior experience with the Hindi language. This course focuses on building a strong foundation in basic Hindi vocabulary, pronunciation, and grammar. By the end of this course, students will be able to introduce themselves, engage in simple conversations, and understand essential expressions used in everyday life.<br><br>
-
-Our Beginner Hindi Course is designed for learners aged 5 to 80, especially those of Indian origin living abroad looking to reconnect with their heritage. This course provides the essentials to communicate in Hindi, making it ideal for hobbyists, travellers, and those with spouses from Indian backgrounds who wish to engage in meaningful conversations. Whether you're interested in Indian culture or preparing for business dealings in India, this is your starting point.</p>
-            </div>
+                The Intermediate Hindi Course is designed for learners who already possess a basic understanding of Hindi. This course will deepen your knowledge of Hindi grammar and vocabulary, enabling you to engage in more complex conversations and improve your reading and writing skills.
+<br><br>
+Designed for learners with a basic understanding of Hindi, this course is perfect for individuals with Indian heritage or anyone conducting business in India. We dive deeper into grammar and vocabulary to enhance your ability to converse fluently. You’ll gain skills to discuss a variety of topics, making this course great for those wanting to develop professional or cultural connections with India. For people interested in Sanskrit, Indian scriptures, Shlokas, or ISKCON teachings, we provide a cultural layer alongside language development.</p>            </div>
         </div>
 
 </section>
@@ -90,23 +88,26 @@ Our Beginner Hindi Course is designed for learners aged 5 to 80, especially thos
         <div class="col-md-12">
             <ul>
                 <li style="margin-left:20px; margin-bottom:15px; margin-top:40px; font-family: 'Fraunces', serif; color:white; font-size:23px;">
-                    Basic Vocabulary: Essential phrases for greetings, introductions, and casual conversations.
+                Expanded Vocabulary: Conversational phrases related to professions, daily life, and cultural nuances.
                 </li>
                 <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
                     Pronunciation: Accurate articulation to sound natural when speaking Hindi.
 
                 </li>
                 <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
-                    Foundational Grammar: Learn how to structure basic sentences and understand gendered nouns.
+                Tense Usage: Master past, present, and future tenses to talk about events and future plans.
 
                 </li>
                 <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
-                    Cultural Context: Get introduced to common customs, festivals, and traditions in Indian society.
+                Complex Sentence Structures: Learn how to form longer, more expressive sentences.
 
                 </li>
                 <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
-                Practical Usage: Learn numbers, telling time, and asking simple questions to engage in daily scenarios.
+                Cultural Lessons: Dive deeper into Indian scriptures, Shlokas, and common expressions used in social settings.
 
+                </li>
+                <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
+                Hindi for Business: Learn common business phrases and professional terms for conducting business in India.
                 </li>
             </ul>
 

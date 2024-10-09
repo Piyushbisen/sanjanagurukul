@@ -1900,7 +1900,7 @@ header.sticky .sf-menu li li a {
 
 .news-v1 .item  {
 	border-radius: 5px;
-	background: linear-gradient(to left, #fdba3b, #ffeaa4);
+	background: linear-gradient(to left, #ffbb3c, #ffeaa4);
 	border-radius: 30px 30px 5px 5px;
 }
 
@@ -1908,6 +1908,24 @@ header.sticky .sf-menu li li a {
 	position: relative;
 	overflow: hidden;
 }
+
+.separator {
+    display: inline-block;
+    height: 44px; /* Adjust based on icon size */
+    width: 1px;
+    background-color: white;
+    margin: 0 20px; /* Adjust spacing as needed */
+    vertical-align: middle; /* Align with the icons */
+}
+
+.separatortwo {
+    display: inline-block;
+    height: 44px; /* Adjust based on icon size */
+    width: 1px;
+    background-color: white;
+    vertical-align: middle; /* Align with the icons */
+}
+
 
 .news-v1 .item .thumb .photo {
 	width: 100%;
