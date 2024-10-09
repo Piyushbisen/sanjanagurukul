@@ -22,7 +22,7 @@
 	<div class="row">
 			<div class="col-md-12">
 				<div class="heading wow fadeInUp">
-					<h2 style="text-transform: none; font-family: 'Fraunces', serif; color:white; font-size:50px; color:white !important;     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);"> <span style="color:#ffd64a; font-family: 'Fraunces', serif;">BEGINNER
+					<h2 style="text-transform: none; font-family: 'Fraunces', serif; color:white; font-size:50px; color:white !important;     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);"> <span style="color:#ffd64a; font-family: 'Fraunces', serif;">CUSTOM
                     </span><br>HINDI COURSE</h2>
                     <div class="row">
                         <div class="col-md-6" style="">
@@ -37,7 +37,7 @@
                         <div class="col-md-6">
                             <p class="duration" style="font-weight:600; margin-top:20px; color:white; font-family: 'Fraunces', serif; font-size:25px; text-align:left">
                                 <span class="separatortwo"></span>
-                                <i class="fa fa-play-circle-o" style="font-size:30px; margin-right:5px"></i> Build a strong foundation in basic vocabulary, grammar, and everyday conversations. 
+                                <i class="fa fa-play-circle-o" style="font-size:30px; margin-right:5px"></i> Personalize your course content—conversational Hindi, business communication, travel phrases, or spiritual texts like shlokas and scriptures.
                             </p>
                         </div>
                     </div>
@@ -66,15 +66,14 @@
     
     <div class="row" style="margin-left:0px; margin-right:0px;">
             <div class="col-md-6">
-                <img src="<?php echo BASE_URL; ?>assets/uploads/file-18.png" style="width:100%; height: 700px;" alt="Your Image Description" class="img-fluid">
+                <img src="<?php echo BASE_URL; ?>assets/uploads/file-21.png" style="width:100%; height: 700px;" alt="Your Image Description" class="img-fluid">
             </div>
             <div class="col-md-6" style=" padding:30px; min-height: 700px;">
                 <p style="color: white; font-size:22px; line-height:35px; font-family: 'Lora', serif !important;"><span style="text-transform: none; font-family: 'Fraunces', serif; color:#ffd64a; font-size:30px; font-weight:600; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);">Course Overview</span>
                 <br><br>
-                Our Beginner Hindi Course is designed for learners with little to no prior experience with the Hindi language. This course focuses on building a strong foundation in basic Hindi vocabulary, pronunciation, and grammar. By the end of this course, students will be able to introduce themselves, engage in simple conversations, and understand essential expressions used in everyday life.<br><br>
-
-Our Beginner Hindi Course is designed for learners aged 5 to 80, especially those of Indian origin living abroad looking to reconnect with their heritage. This course provides the essentials to communicate in Hindi, making it ideal for hobbyists, travellers, and those with spouses from Indian backgrounds who wish to engage in meaningful conversations. Whether you're interested in Indian culture or preparing for business dealings in India, this is your starting point.</p>
-            </div>
+                The Intermediate Hindi Course is designed for learners who already possess a basic understanding of Hindi. This course will deepen your knowledge of Hindi grammar and vocabulary, enabling you to engage in more complex conversations and improve your reading and writing skills.
+<br><br>
+Designed for learners with a basic understanding of Hindi, this course is perfect for individuals with Indian heritage or anyone conducting business in India. We dive deeper into grammar and vocabulary to enhance your ability to converse fluently. You’ll gain skills to discuss a variety of topics, making this course great for those wanting to develop professional or cultural connections with India. For people interested in Sanskrit, Indian scriptures, Shlokas, or ISKCON teachings, we provide a cultural layer alongside language development.</p>            </div>
         </div>
 
 </section>
@@ -90,24 +89,20 @@ Our Beginner Hindi Course is designed for learners aged 5 to 80, especially thos
         <div class="col-md-12">
             <ul>
                 <li style="margin-left:20px; margin-bottom:15px; margin-top:40px; font-family: 'Fraunces', serif; color:white; font-size:23px;">
-                    Basic Vocabulary: Essential phrases for greetings, introductions, and casual conversations.
+                Personalized Focus: Choose specific areas of study such as conversational Hindi, business communication, Hindi for travel, or spiritual texts like scriptures and shlokas.
                 </li>
                 <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
-                    Pronunciation: Accurate articulation to sound natural when speaking Hindi.
+                Flexible Grammar and Vocabulary: Focus on the grammar rules and vocabulary most relevant to your needs, whether it's everyday phrases or technical language for work.
 
                 </li>
                 <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
-                    Foundational Grammar: Learn how to structure basic sentences and understand gendered nouns.
+                Cultural Immersion: Opt for lessons on Indian culture, traditions, festivals, or specific regional dialects of Hindi.
 
                 </li>
                 <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
-                    Cultural Context: Get introduced to common customs, festivals, and traditions in Indian society.
-
+                Progressive Learning: Customize your learning pace and level, whether you're a beginner, intermediate, or advanced learner.
                 </li>
-                <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
-                Practical Usage: Learn numbers, telling time, and asking simple questions to engage in daily scenarios.
-
-                </li>
+                
             </ul>
 
         </div>
@@ -132,8 +127,8 @@ Our Beginner Hindi Course is designed for learners aged 5 to 80, especially thos
                         <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-15.png" alt="">
                     </div>
                     <div class="text" style="text-align:center" >
-                        <p style="color:black; font-size:20px; margin-top:80px">Interactive, real-time classes with engaging teaching methods.</p>
-                        
+                        <p style="color:black; font-size:20px; margin-top:80px">
+                        Fully customizable course structure based on your personal or professional goals.</p>                        
                     </div>
                 </div>
 
@@ -145,8 +140,8 @@ Our Beginner Hindi Course is designed for learners aged 5 to 80, especially thos
                     </div>
                     <div class="text" style="text-align:center" >
                         <p style="color:black; font-size:20px; margin-top:80px">
-                        Tailored lessons for children, adults, and seniors.</p>
-                        
+                        Sessions for individualized attention and feedback.</p>
+
                     </div>
                 </div>
 
@@ -158,8 +153,7 @@ Our Beginner Hindi Course is designed for learners aged 5 to 80, especially thos
                     </div>
                     <div class="text" style="text-align:center" >
                         <p style="color:black; font-size:20px; margin-top:80px">
-                        Fun exercises for practicing vocabulary and sentence structures.</p>
-                        
+                        Fun exercises for practicing vocabulary and sentence structures.</p>                        
                     </div>
                 </div>
 
@@ -172,8 +166,7 @@ Our Beginner Hindi Course is designed for learners aged 5 to 80, especially thos
                     </div>
                     <div class="text" style="text-align:center" >
                         <p style="color:black; font-size:20px; margin-top:80px">
-                        Cultural lessons on Indian festivals and family traditions.</p>
-                        
+                        Flexibility to modify duration  to suit your learning needs.</p>                        
                     </div>
                 </div>
 
@@ -185,8 +178,7 @@ Our Beginner Hindi Course is designed for learners aged 5 to 80, especially thos
                     </div>
                     <div class="text" style="text-align:center" >
                         <p style="color:black; font-size:20px; margin-top:80px">
-                        Flexible scheduling for students around the world.</p>
-                        
+                        Continuous guidance to help you track progress and achieve fluency in your desired areas of focus.</p>                        
                     </div>
                 </div>
             </div>
@@ -209,17 +201,20 @@ Our Beginner Hindi Course is designed for learners aged 5 to 80, especially thos
         <div class="col-md-12">
             <ul>
                 <li style="margin-left:20px; margin-bottom:15px; margin-top:40px; font-family: 'Fraunces', serif; color:white; font-size:23px;">
-                Beginners aged 5 to 80, especially those with Indian heritage, or married to someone from Indian culture.
+                Learners aged 5 to 80 who have specific language goals or needs.
 
                 </li>
                 <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
-                Travellers and hobbyists interested in basic Hindi for personal use.
+                Professionals seeking customized business communication skills for dealing with Indian counterparts.
 
 
                 </li>
                 <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
-                Individuals preparing for a trip to India or those looking to explore Indian culture.
+                Individuals wanting to study specific aspects of Indian culture, scriptures, or shlokas.
                 </li>
+
+                <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
+                Travelers, hobbyists, and those with Indian-origin spouses who want to customize their language learning experience.                </li>
                 
             </ul>
 

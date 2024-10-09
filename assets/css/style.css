@@ -1923,6 +1923,8 @@ header.sticky .sf-menu li li a {
     height: 44px; /* Adjust based on icon size */
     width: 1px;
     background-color: white;
+	
+    margin: 0 0; /* Adjust spacing as needed */
     vertical-align: middle; /* Align with the icons */
 }
 

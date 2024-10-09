@@ -35,7 +35,7 @@
                             </p>
                         </div>
                         <div class="col-md-6">
-                            <p class="duration" style="font-weight:600; margin-top:20px; color:white; font-family: 'Fraunces', serif; font-size:25px">
+                            <p class="duration" style="font-weight:600; margin-top:20px; color:white; font-family: 'Fraunces', serif; font-size:25px; text-align:left">
                                 <span class="separatortwo"></span>
                                 <i class="fa fa-play-circle-o" style="font-size:30px; margin-right:5px"></i> 
                                 Master complex grammar, idiomatic expressions, and specialized vocabulary for business, cultural, or spiritual communication.                            </p>
