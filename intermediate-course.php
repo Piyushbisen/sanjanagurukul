@@ -35,6 +35,7 @@
                             </p>
                         </div>
                         <div class="col-md-6">
+                            <p class="duration" style="font-weight:600; margin-top:20px; color:white; font-family: 'Fraunces', serif; font-size:25px">
                                 <span class="separatortwo"></span>
                                 <i class="fa fa-play-circle-o" style="font-size:30px; margin-right:5px"></i> Deepen language skills with complex sentence structures, tenses, and professional or cultural vocabulary.
                             </p>
