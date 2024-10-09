@@ -22,7 +22,7 @@
 	<div class="row">
 			<div class="col-md-12">
 				<div class="heading wow fadeInUp">
-					<h2 style="text-transform: none; font-family: 'Fraunces', serif; color:white; font-size:50px; color:white !important;     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);"> <span style="color:#ffd64a; font-family: 'Fraunces', serif;">INTERMEDIATE
+					<h2 style="text-transform: none; font-family: 'Fraunces', serif; color:white; font-size:50px; color:white !important;     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);"> <span style="color:#ffd64a; font-family: 'Fraunces', serif;">ADVANCED
                     </span><br>HINDI COURSE</h2>
                     <div class="row">
                         <div class="col-md-6" style="">
@@ -37,8 +37,8 @@
                         <div class="col-md-6">
                             <p class="duration" style="font-weight:600; margin-top:20px; color:white; font-family: 'Fraunces', serif; font-size:25px">
                                 <span class="separatortwo"></span>
-                                <i class="fa fa-play-circle-o" style="font-size:30px; margin-right:5px"></i> Deepen language skills with complex sentence structures, tenses, and professional or cultural vocabulary.
-                            </p>
+                                <i class="fa fa-play-circle-o" style="font-size:30px; margin-right:5px"></i> 
+                                Master complex grammar, idiomatic expressions, and specialized vocabulary for business, cultural, or spiritual communication.                            </p>
                         </div>
                     </div>
 
@@ -66,14 +66,13 @@
     
     <div class="row" style="margin-left:0px; margin-right:0px;">
             <div class="col-md-6">
-                <img src="<?php echo BASE_URL; ?>assets/uploads/file-19.png" style="width:100%; height: 700px;" alt="Your Image Description" class="img-fluid">
+                <img src="<?php echo BASE_URL; ?>assets/uploads/file-20.png" style="width:100%; height: 700px;" alt="Your Image Description" class="img-fluid">
             </div>
             <div class="col-md-6" style=" padding:30px; min-height: 700px;">
                 <p style="color: white; font-size:22px; line-height:35px; font-family: 'Lora', serif !important;"><span style="text-transform: none; font-family: 'Fraunces', serif; color:#ffd64a; font-size:30px; font-weight:600; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);">Course Overview</span>
                 <br><br>
-                The Intermediate Hindi Course is designed for learners who already possess a basic understanding of Hindi. This course will deepen your knowledge of Hindi grammar and vocabulary, enabling you to engage in more complex conversations and improve your reading and writing skills.
-<br><br>
-Designed for learners with a basic understanding of Hindi, this course is perfect for individuals with Indian heritage or anyone conducting business in India. We dive deeper into grammar and vocabulary to enhance your ability to converse fluently. You’ll gain skills to discuss a variety of topics, making this course great for those wanting to develop professional or cultural connections with India. For people interested in Sanskrit, Indian scriptures, Shlokas, or ISKCON teachings, we provide a cultural layer alongside language development.</p>            </div>
+                The Advanced Hindi Course is designed for learners who have a solid command of the language and want to refine their fluency. This course focuses on advanced grammar, idiomatic expressions, and specialized vocabulary for professional or academic contexts. Students will learn to speak, write, and comprehend Hindi with greater sophistication and confidence.<br><br>
+                For those aged 5 to 80 who are near fluency, this Advanced Hindi Course focuses on mastering complex grammar and expanding specialized vocabulary. It’s tailored for individuals managing businesses or jobs in India, hobbyists, travelers, or those immersed in Indian culture (like ISKCON followers). You’ll not only learn the language but also dive deep into Indian literature, idiomatic expressions, and conversational nuances used by native speakers. Perfect for anyone seeking mastery in professional, spiritual, or personal communication.</p>            </div>
         </div>
 
 </section>
@@ -89,27 +88,24 @@ Designed for learners with a basic understanding of Hindi, this course is perfec
         <div class="col-md-12">
             <ul>
                 <li style="margin-left:20px; margin-bottom:15px; margin-top:40px; font-family: 'Fraunces', serif; color:white; font-size:23px;">
-                Expanded Vocabulary: Conversational phrases related to professions, daily life, and cultural nuances.
+                Advanced Grammar: Subjunctive mood, conditional sentences, and sentence structure refinement.
                 </li>
                 <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
-                    Pronunciation: Accurate articulation to sound natural when speaking Hindi.
+                Idiomatic Expressions: Learn Hindi phrases, slang, and colloquial language for authentic conversations.
 
                 </li>
                 <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
-                Tense Usage: Master past, present, and future tenses to talk about events and future plans.
+                Specialized Vocabulary: Tailor your vocabulary for business, spiritual texts, cultural discussions, or travel.
 
                 </li>
                 <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
-                Complex Sentence Structures: Learn how to form longer, more expressive sentences.
+                Cultural Insights: Analyze Hindi literature, scriptures, shlokas, and the use of language in rituals and daily life.
 
                 </li>
                 <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
-                Cultural Lessons: Dive deeper into Indian scriptures, Shlokas, and common expressions used in social settings.
-
+                Professional Fluency: Perfect for business professionals, you’ll practice formal language, email writing, and professional presentations.
                 </li>
-                <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
-                Hindi for Business: Learn common business phrases and professional terms for conducting business in India.
-                </li>
+                
             </ul>
 
         </div>
@@ -135,7 +131,7 @@ Designed for learners with a basic understanding of Hindi, this course is perfec
                     </div>
                     <div class="text" style="text-align:center" >
                         <p style="color:black; font-size:20px; margin-top:80px">
-                        Live classes with group discussions and personalized feedback.</p>                        
+                        Sessions for personalized learning and feedback.    </p>                
                     </div>
                 </div>
 
@@ -147,8 +143,7 @@ Designed for learners with a basic understanding of Hindi, this course is perfec
                     </div>
                     <div class="text" style="text-align:center" >
                         <p style="color:black; font-size:20px; margin-top:80px">
-                        Cultural immersion through literature, Hindi media, and scripture readings.</p>
-
+                        Tailored lessons for children, adults, and seniors.</p>
                     </div>
                 </div>
 
@@ -160,7 +155,8 @@ Designed for learners with a basic understanding of Hindi, this course is perfec
                     </div>
                     <div class="text" style="text-align:center" >
                         <p style="color:black; font-size:20px; margin-top:80px">
-                        Fun exercises for practicing vocabulary and sentence structures.</p>                        
+                        Deep dive into Hindi texts, business language, and spiritual scripts.
+                    </p>                        
                     </div>
                 </div>
 
@@ -173,7 +169,7 @@ Designed for learners with a basic understanding of Hindi, this course is perfec
                     </div>
                     <div class="text" style="text-align:center" >
                         <p style="color:black; font-size:20px; margin-top:80px">
-                        Practice sessions tailored to professionals and those exploring Indian spirituality.</p>                        
+                        Advanced reading and writing exercises to refine comprehension and expression.</p>                        
                     </div>
                 </div>
 
@@ -185,7 +181,7 @@ Designed for learners with a basic understanding of Hindi, this course is perfec
                     </div>
                     <div class="text" style="text-align:center" >
                         <p style="color:black; font-size:20px; margin-top:80px">
-                        Flexible class schedules for learners in different time zones.</p>                        
+                        Specialized guidance for those preparing to interact with Indian professionals or spiritual communities.</p>                        
                     </div>
                 </div>
             </div>
@@ -208,16 +204,16 @@ Designed for learners with a basic understanding of Hindi, this course is perfec
         <div class="col-md-12">
             <ul>
                 <li style="margin-left:20px; margin-bottom:15px; margin-top:40px; font-family: 'Fraunces', serif; color:white; font-size:23px;">
-                Intermediate learners aged 5 to 80, including South African Indians, expatriates, or professionals working with Indian counterparts.
+                Advanced learners aged 5 to 80, especially those working in Indian business environments, ISKCON followers, or those studying Indian scriptures.
 
                 </li>
                 <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
-                Those interested in deepening their connection to Indian spirituality or culture.
+                People wanting to gain fluency for professional or personal reasons.
 
 
                 </li>
                 <li style="margin-left:20px; margin-bottom:15px; font-family: 'Fraunces', serif; color:white; font-size:23px">
-                Individuals looking to refine their Hindi for business or family interactions.
+                Learners looking for advanced cultural understanding and conversational fluency.
                 </li>
                 
             </ul>
