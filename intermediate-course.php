@@ -133,8 +133,8 @@ Designed for learners with a basic understanding of Hindi, this course is perfec
                         <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-15.png" alt="">
                     </div>
                     <div class="text" style="text-align:center" >
-                        <p style="color:black; font-size:20px; margin-top:80px">Interactive, real-time classes with engaging teaching methods.</p>
-                        
+                        <p style="color:black; font-size:20px; margin-top:80px">
+                        Live classes with group discussions and personalized feedback.</p>                        
                     </div>
                 </div>
 
@@ -146,8 +146,8 @@ Designed for learners with a basic understanding of Hindi, this course is perfec
                     </div>
                     <div class="text" style="text-align:center" >
                         <p style="color:black; font-size:20px; margin-top:80px">
-                        Tailored lessons for children, adults, and seniors.</p>
-                        
+                        Cultural immersion through literature, Hindi media, and scripture readings.</p>
+
                     </div>
                 </div>
 
@@ -159,8 +159,7 @@ Designed for learners with a basic understanding of Hindi, this course is perfec
                     </div>
                     <div class="text" style="text-align:center" >
                         <p style="color:black; font-size:20px; margin-top:80px">
-                        Fun exercises for practicing vocabulary and sentence structures.</p>
-                        
+                        Fun exercises for practicing vocabulary and sentence structures.</p>                        
                     </div>
                 </div>
 
@@ -173,8 +172,7 @@ Designed for learners with a basic understanding of Hindi, this course is perfec
                     </div>
                     <div class="text" style="text-align:center" >
                         <p style="color:black; font-size:20px; margin-top:80px">
-                        Cultural lessons on Indian festivals and family traditions.</p>
-                        
+                        Practice sessions tailored to professionals and those exploring Indian spirituality.</p>                        
                     </div>
                 </div>
 
@@ -186,8 +184,7 @@ Designed for learners with a basic understanding of Hindi, this course is perfec
                     </div>
                     <div class="text" style="text-align:center" >
                         <p style="color:black; font-size:20px; margin-top:80px">
-                        Flexible scheduling for students around the world.</p>
-                        
+                        Flexible class schedules for learners in different time zones.</p>                        
                     </div>
                 </div>
             </div>
