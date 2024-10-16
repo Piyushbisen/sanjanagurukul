@@ -36,7 +36,7 @@ body {
 }
 
 p {
-	color: #656464;
+	color: white;
 }
 
 .tal {
@@ -2253,10 +2253,11 @@ header.sticky .sf-menu li li a {
  */
 .page-banner {
 	background: url(../images/about.jpg) no-repeat;
-	-webkit-background-size: cover;
+	-webkit-background-size: contain;
 	background-size: cover;
 	padding-top:120px;
 	padding-bottom: 120px;
+	height: 500px;
 	position: relative;
 }
 
@@ -2278,7 +2279,7 @@ header.sticky .sf-menu li li a {
 }
 
 .banner-text {
-	text-align: center;
+	text-align: left;
 }
 
 .banner-text h1 {
@@ -5022,7 +5023,7 @@ ul.gallery-menu li.filter:nth-last-of-type(1) {
 .faq {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background: #fff;
+	background: #000000;
 }
 
 .faq h1 {
@@ -5048,11 +5049,11 @@ ul.gallery-menu li.filter:nth-last-of-type(1) {
 }
 
 .faq .panel-default>.panel-heading {
-	background: #eee;
+	/* background: linear-gradient(to left, rgba(253, 186, 59, 0.5), rgba(255, 234, 164, 0.5)); */
 	color: #333;
 	padding: 0;
 	border-radius: 0;
-	border: 1px solid #eee;
+	/* border: 1px solid #eee; */
 	position: relative;
 }
 

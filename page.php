@@ -50,7 +50,11 @@ if($status == 'Inactive')
 		<div class="row">
 			<div class="col-md-12">
 				<div class="banner-text">
-					<h1><?php echo $page_name; ?></h1>
+					<h1 style="font-family: 'Fraunces', serif; font-size: 50px; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s;  color: white;  font-weight: 600;"><?php echo $page_name; ?></h1>
+					<?php if ($page_slug == 'faq') { ?>
+						<h1 style="font-family: 'Fraunces', serif; font-size: 50px; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s;  color: #ffd64a;  font-weight: 600;">Find the Answers <br>You Need</h1>
+					<?php } ?>
+
 				</div>
 			</div>
 		</div>
@@ -254,7 +258,7 @@ if(isset($_POST['form_contact']))
 				foreach ($result as $row) {
 					$i++;
 					?>
-					<h1><?php echo $row['faq_category_name']; ?></h1>
+					<h1 style="color:#ffd64a; font-family: 'Fraunces', serif;"><?php echo $row['faq_category_name']; ?></h1>
 					<div class="panel-group" id="accordion<?php echo $i; ?>" role="tablist" aria-multiselectable="true">
 						<?php
 						$statement1 = $pdo->prepare("SELECT * FROM tbl_faq WHERE faq_category_id=?");
@@ -272,7 +276,7 @@ if(isset($_POST['form_contact']))
 									</h4>
 									
 								</div>
-								<div id="collapse<?php echo $j; ?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+								<div id="collapse<?php echo $j; ?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" style="">
 									<div class="panel-body">
 										<?php echo $row1['faq_content']; ?>
 									</div>
