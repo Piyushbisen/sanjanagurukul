@@ -213,23 +213,23 @@ This link will be active only for 24 hours.
 						?> -->
 						<div class="news-item" style="margin-top:30px; color:black;">
 								<div class="news-title" >
-									<a href="#" style="color:white">Home</a>
+									<a href="<?php echo BASE_URL; ?>" style="color:white">Home</a>
 								</div>
 								<div class="news-title" >
-									<a href="#" style="color:white">About Us </a>
+									<a href="<?php echo BASE_URL; ?>sanjanagurukul.php" style="color:white">About Us </a>
 								</div>
 								
 								<div class="news-title" >
-									<a href="#" style="color:white">Blogs And Services</a>
+									<a href="<?php echo BASE_URL; ?>page/blog" style="color:white">Blogs And Services</a>
 								</div>
 								<div class="news-title" >
-									<a href="#" style="color:white">Contact Us</a>
+									<a href="<?php echo BASE_URL; ?>page/contact-us" style="color:white">Contact Us</a>
 								</div>
 								<div class="news-title" >
-									<a href="#" style="color:white">Terms and Conditions</a>
+									<a href="<?php echo BASE_URL; ?>" style="color:white">Terms and Conditions</a>
 								</div>
 								<div class="news-title" >
-									<a href="#" style="color:white">Privacy Policy</a>
+									<a href="<?php echo BASE_URL; ?>" style="color:white">Privacy Policy</a>
 								</div>
 							</div>
 					</div>
@@ -252,17 +252,17 @@ This link will be active only for 24 hours.
 						?> -->
 						<div class="news-item" style="margin-top:30px; color:black;">
 								<div class="news-title" >
-									<a href="#" style="color:white">Biginner</a>
+									<a href="<?php echo BASE_URL; ?>beginner-course.php" style="color:white">Biginner</a>
 								</div>
 								<div class="news-title" >
-									<a href="#" style="color:white">Intermediate</a>
+									<a href="<?php echo BASE_URL; ?>Intermediate-course.php" style="color:white">Intermediate</a>
 								</div>
 								
 								<div class="news-title" >
-									<a href="#" style="color:white">Advanced</a>
+									<a href="<?php echo BASE_URL; ?>advanced-course.php" style="color:white">Advanced</a>
 								</div>
 								<div class="news-title" >
-									<a href="#" style="color:white">Customized</a>
+									<a href="<?php echo BASE_URL; ?>custom-course.php" style="color:white">Customized</a>
 								</div>
 							</div>
 					</div>

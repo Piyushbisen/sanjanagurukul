@@ -41,18 +41,91 @@ if($status == 'Inactive')
 	exit;
 }
 ?>
+
+<style>
+	.blogflagdark {
+	clip-path: polygon(100% 0, 90% 50%, 100% 100%, 0 100%, 0 0); background: linear-gradient(to top, rgba(253, 186, 59, 1), rgba(255, 234, 164, 1)); max-width: 40%; height: 60px; position: relative; margin-left:-40px; margin-bottom:30px; margin-top:20px; color: black;
+}
+
+.blogflag {
+	clip-path: polygon(100% 0, 90% 50%, 100% 100%, 0 100%, 0 0); background-color: #605f5e; max-width: 40%; height: 60px; position: relative; margin-left:-40px; margin-bottom:30px; margin-top:20px; color: white;
+}
+
+.blogheading {
+	color:black !important; 
+	font-family: 'Fraunces', serif !important; 
+	text-transform:none !important;
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.blogheadingdark {
+	color:white !important; 
+	font-family: 'Fraunces', serif !important; 
+	text-transform:none !important;
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.blogp {
+	color:black !important; 
+	font-family: 'Fraunces', serif !important; 
+	text-transform:none !important;
+	font-size: 18px !important;
+}
+
+.blogpdark {
+	color:white !important; 
+	font-family: 'Fraunces', serif !important; 
+	text-transform:none !important;
+	font-size: 18px !important;
+}
+
+.blogbutton {
+	color:black !important; 
+	font-family: 'Fraunces', serif !important; 
+	text-transform:none !important;
+	border: 2px solid black !important;
+}
+
+.blogbuttondark {
+	color:white !important; 
+	font-family: 'Fraunces', serif !important; 
+	text-transform:none !important;
+	border: 2px solid #ffeaa4 !important;
+}
+
+.blogposted {
+	color:black !important; 
+	font-family: 'Fraunces', serif !important; 
+	text-transform:none !important;
+}
+
+.blogposteddark {
+	color:white !important; 
+	font-family: 'Fraunces', serif !important; 
+	text-transform:none !important;
+}
+
+</style>
 		
 		
 <!-- Banner Start -->
+<?php if ($page_slug != 'photo-gallery') { ?>
 <div class="page-banner" style="background-image: url(<?php echo BASE_URL; ?>assets/uploads/<?php echo $banner; ?>)">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="banner-text">
+				<?php if ($page_slug != 'blog') { ?>
 					<h1 style="font-family: 'Fraunces', serif; font-size: 50px; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s;  color: white;  font-weight: 600;"><?php echo $page_name; ?></h1>
 					<?php if ($page_slug == 'faq') { ?>
 						<h1 style="font-family: 'Fraunces', serif; font-size: 50px; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s;  color: #ffd64a;  font-weight: 600;">Find the Answers <br>You Need</h1>
+					<?php } ?>
+					<?php if ($page_slug == 'contact-us') { ?>
+						<h1 style="font-family: 'Fraunces', serif; font-size: 30px; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s;  color: #ffd64a;  font-weight: 600;">Connect with us if you have any queries or questions.</h1>
+					<?php } ?>
 					<?php } ?>
 
 				</div>
@@ -60,6 +133,16 @@ if($status == 'Inactive')
 		</div>
 	</div>
 </div>
+<?php } ?>
+
+<?php if ($page_slug == 'photo-gallery') { ?>
+<div class="col-md-12" style="margin-top:50px; margin-bottom: 50px;">
+				<div class="banner-text" style="text-align:center">
+					<h1 style="font-family: 'Fraunces', serif; font-size: 50px; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s;  color: white;  font-weight: 600;"><?php echo $page_name; ?></h1>
+			
+				</div>
+			</div>
+			<?php } ?>
 <!-- Banner End -->
 
 
@@ -86,53 +169,123 @@ if($status == 'Inactive')
 		$contact_map_iframe = $row['contact_map_iframe'];
 	}
 ?>
-<section class="contact-v1">
+<section class="contact-v1" >
+	<div style="background-color:#605f5e">
 	<div class="container">
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-md-12">
 				<div class="heading-normal">
 					<h2><?php echo CONTACT_FORM; ?></h2>
 				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-7">
+		</div> -->
 
-<?php
+		<div class="row" style="margin-bottom:50px">
+			<div class="col-md-6">
+				<div class="google-map">
+					<?php echo $contact_map_iframe; ?>
+				</div>	
+			</div>
+			<div class="col-md-6">
+				
+				<ul>
+				<li style="display: flex; align-items: center; padding: 5px; margin-bottom: 60px;">
+					<span style="display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; background-color: #f4b609; border-radius: 50%;">
+						<i class="fa fa-phone-square" style="color: black; font-size: 25px;"></i>
+					</span>
+					<span style="margin-left: 30px; color:white; font-size:20px">+27 62 307 1568</span>
+				</li>
+
+				<li style="display: flex; align-items: center; padding: 5px; margin-bottom: 60px;">
+					<span style="display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; background-color: #f4b609; border-radius: 50%;">
+						<i class="fa fa-envelope" style="color: black; font-size: 25px;"></i>
+					</span>
+					<span style="margin-left: 30px; color:white; font-size:20px">xyz@sanjanagurukul.com</span>
+				</li>
+
+				<li style="display: flex; align-items: center; padding: 5px; margin-bottom: 60px;">
+					<span style="display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; background-color: #f4b609; border-radius: 50%;">
+						<i class="fa fa-map-marker" style="color: black; font-size: 25px;"></i>
+					</span>
+					<span style="margin-left: 30px; color:white; font-size:20px">Kyalami Hills, Kyalami Estate Midrand, 1685</span>
+				</li>
+
+				</ul>
+				
+				<div class="col-md-12 top-social top-socialbottom" style="margin-bottom:40px">
+							<!-- <span style="font-size:20px; color: white; font-family: 'Fraunces', serif; font-weight:700;">Follow Us On: </span> -->
+							<ul style="margin-left:0px">
+								<?php
+								// Getting and showing all the social media icon URL from the database
+								$statement = $pdo->prepare("SELECT * FROM tbl_social");
+								$statement->execute();
+								$result = $statement->fetchAll(PDO::FETCH_ASSOC);							
+								foreach ($result as $row) 
+								{
+									if($row['social_url']!='')
+									{
+										echo '<li style="background-color:white;  padding:15px; border-radius:50%; "><a href="'.$row['social_url'].'"><i class="'.$row['social_icon'].'"   style="color:black; font-size:20px"></i></a></li>';
+									}
+								}
+								?>
+							</ul>
+						</div>
+
+			</div>
+		</div>
+		</div>
+		</div>
+		<div style="background-color:black">
+		<div class="container">
+		<div class="row" style="margin-top:60px; margin-bottom:60px">
+			<div class="col-md-6">
+				<h2 style="font-family: 'Fraunces', serif; color:#ffd64a; font-size:40px; font-weight:900; margin-bottom:40px">
+					Still have queries?
+				</h2>
+				<p style="font-size:25px; line-height:40px; margin-bottom: 50px;">
+				leave us your query and we will get back to you soon.
+				</p>
+				<img src="<?php echo BASE_URL; ?>assets/uploads/file-23.png"  style="width:30%">
+
+
+			</div>
+			<div class="col-md-6" style="border: 2px solid white; border-radius:20px; padding:20px">
+
+			<?php
 // After form submit checking everything for email sending
 if(isset($_POST['form_contact']))
 {
 	$error_message = '';
 	$success_message = '';
 
-	$statement = $pdo->prepare("SELECT * FROM tbl_setting_email WHERE id=1");
-	$statement->execute();
-	$result = $statement->fetchAll();                           
-	foreach ($result as $row) {
-	    $send_email_from  = $row['send_email_from'];
-	    $receive_email_to = $row['receive_email_to'];
-	    $smtp_host        = $row['smtp_host'];
-	    $smtp_port        = $row['smtp_port'];
-	    $smtp_username    = $row['smtp_username'];
-	    $smtp_password    = $row['smtp_password'];
-	}
+	// $statement = $pdo->prepare("SELECT * FROM tbl_setting_email WHERE id=1");
+	// $statement->execute();
+	// $result = $statement->fetchAll();                           
+	// foreach ($result as $row) {
+	//     $send_email_from  = $row['send_email_from'];
+	//     $receive_email_to = $row['receive_email_to'];
+	//     $smtp_host        = $row['smtp_host'];
+	//     $smtp_port        = $row['smtp_port'];
+	//     $smtp_username    = $row['smtp_username'];
+	//     $smtp_password    = $row['smtp_password'];
+	// }
 
     $valid = 1;
 
-    if(empty($_POST['visitor_name']))
+    if(empty($_POST['full_name']))
     {
         $valid = 0;
         $error_message .= FULL_NAME_EMPTY_CHECK.'\n';
     }
 
-    if(empty($_POST['visitor_phone']))
+    if(empty($_POST['phone']))
     {
         $valid = 0;
         $error_message .= PHONE_EMPTY_CHECK.'\n';
     }
 
 
-    if(empty($_POST['visitor_email']))
+    if(empty($_POST['email']))
     {
         $valid = 0;
         $error_message .= EMAIL_EMPTY_CHECK.'\n';
@@ -140,14 +293,14 @@ if(isset($_POST['form_contact']))
     else
     {
     	// Email validation check
-        if(!filter_var($_POST['visitor_email'], FILTER_VALIDATE_EMAIL))
+        if(!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL))
         {
             $valid = 0;
             $error_message .= EMAIL_VALID_CHECK.'\n';
         }
     }
 
-    if(empty($_POST['visitor_comment']))
+    if(empty($_POST['enroll']))
     {
         $valid = 0;
         $error_message .= COMMENT_EMPTY_CHECK.'\n';
@@ -155,38 +308,31 @@ if(isset($_POST['form_contact']))
 
     if($valid == 1)
     {
-		$visitor_name = strip_tags($_POST['visitor_name']);
-		$visitor_email = strip_tags($_POST['visitor_email']);
-		$visitor_phone = strip_tags($_POST['visitor_phone']);
-		$visitor_comment = strip_tags($_POST['visitor_comment']);
+		// getting auto increment id
+        
+        // $error_message .= COMMENT_EMPTY_CHECK.'\n';
+		$statement = $pdo->prepare("SHOW TABLE STATUS LIKE 'tbl_register'");
+		$statement->execute();
+		$result = $statement->fetchAll();
+		foreach($result as $row) {
+			$ai_id=$row[10];
+		}
 		
-		
-		$msg = '
-		<html><body>
-		<p><b>Name:</b><br>'.$visitor_name.'</p>
-		<p><b>Email:</b><br>'.$visitor_email.'</p>
-		<p><b>Phone:</b><br>'.$visitor_phone.'</p>
-		<p><b>Comment:</b><br>'.nl2br($visitor_comment).'</p>
-		</body></html>
-		';
+		// $phoneNumber = $_POST['country_code'] . $_POST['phone'];
+    	
+		// saving into the database
+		$statement = $pdo->prepare("INSERT INTO tbl_contactform (full_name, email,  phone,message) VALUES (?, ?, ?, ?)");
+		$statement->execute(array($_POST['full_name'],$_POST['email'], $_POST['phone'], $_POST['message']));
+		// echo "<script>alert('cdsvcfvf')</script>";
+        $message            =  "New Entry from Feedback page.";
+        $page = "<?php echo BASE_URL.'successstories.php' ?>";
+        $active  = 1;
+    
+        // $statement = $pdo->prepare("INSERT INTO tbl_notification (message, page, active) VALUES (?, ?, ?)");
+        // $statement->execute(array($message, $page, $active));
 
-		require_once 'vendor/autoload.php';
 
-		$transport = (new Swift_SmtpTransport($smtp_host, $smtp_port))
-		->setUsername($smtp_username)
-		->setPassword($smtp_password);
-
-		$mailer = new Swift_Mailer($transport);
-
-		$message = (new Swift_Message(CONTACT_FORM_MESSAGE))
-		->setFrom([$send_email_from])
-		->setTo([$receive_email_to])
-		->setReplyTo([$visitor_email])
-		->setBody($msg,'text/html');
-
-		$mailer->send($message);
-
-        $success_message = CONTACT_FORM_SUCCESS_MESSAGE;
+    	$success_message = 'Thank You For Your Valuable Feedback.';
 
     }
 }
@@ -201,44 +347,94 @@ if(isset($_POST['form_contact']))
 				}
 				?>
 
-
-				<form action="<?php echo BASE_URL.URL_PAGE.$_REQUEST['slug']; ?>" class="form-horizontal cform-1" method="post">
+<!-- <?php echo BASE_URL.'success.php';  ?> -->
+				<form action="<?php echo BASE_URL.URL_PAGE.$_REQUEST['slug']; ?>" class="form-horizontal cform-1" method="post" enctype="multipart/form-data">
+					<div class="form-group">
+                        <div class="col-sm-12" >
+                            <input type="text" style="background-color:#605f5e; border-radius:10px; border:none; color:white !important;" class="form-control" placeholder="<?php echo FULL_NAME; ?>" name="full_name">
+                        </div>
+                    </div>
+                    
 					<div class="form-group">
                         <div class="col-sm-12">
-                            <input type="text" class="form-control" placeholder="<?php echo FULL_NAME; ?>" name="visitor_name">
-                        </div>
-                    </div>
-					<div class="form-group">
-                        <div class="col-sm-12">
-                            <input type="email" class="form-control" placeholder="<?php echo EMAIL_ADDRESS; ?>" name="visitor_email">
+                            <input type="email" style="background-color:#605f5e; border-radius:10px; border:none; color:white !important;" class="form-control" placeholder="<?php echo EMAIL_ADDRESS; ?>" name="email">
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-sm-12">
-                            <input type="text" class="form-control" placeholder="<?php echo PHONE_NUMBER; ?>" name="visitor_phone">
+                            <input type="text" style="background-color:#605f5e; border-radius:10px; border:none; color:white !important;" class="form-control" placeholder="<?php echo PHONE_NUMBER; ?>" name="phone">
                         </div>
                     </div>
+                    
                     <div class="form-group">
                         <div class="col-sm-12">
-                            <textarea name="visitor_comment" class="form-control" cols="30" rows="10" placeholder="<?php echo MESSAGE; ?>"></textarea>
+                            <textarea name="enroll" style="background-color:#605f5e; border-radius:10px; border:none; color:white !important;" class="form-control" cols="30" rows="10" placeholder="<?php echo MESSAGE; ?>"></textarea>
                         </div>
                     </div>
                     <div class="form-group">
-	                    <div class="col-sm-12">
-	                        <input type="submit" value="<?php echo SEND_MESSAGE; ?>" class="btn btn-success" name="form_contact">
+	                    <div class="col-sm-12" style="text-align:center">
+	                        <input type="submit" value="<?php echo SEND_MESSAGE; ?>" class="btn btn-success" style="background-color:black !important; border-radius:30px; width:40%; border:2px solid #ffd64a !important" name="form_contact">
 	                    </div>
 	                </div>
 				</form>
 			</div>
-			<div class="col-md-5">
-				<div class="google-map">
-					<?php echo $contact_map_iframe; ?>
-				</div>	
 			</div>
+			
 			
 		</div>
 	</div>
 </section>
+
+<section class="news-v1" style="background-color:#212026">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="heading wow fadeInUp">
+					<h2 style="text-transform: none; font-family: 'Fraunces', serif; color:white; font-size:50px; color:white !important;">Explore the courses offered</h2>
+					<!-- <p style="color:#ffd64a; font-family: 'Fraunces', serif; font-size:40px; font-weight:900; margin-top:20px"><?php echo $home_subtitle_news; ?></p> -->
+				
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				
+				<!-- News Carousel Start -->
+				<div class="news-carousel">
+
+					<?php
+					$i=0;
+					$statement = $pdo->prepare("SELECT * FROM tbl_service ORDER BY id DESC");
+					$statement->execute();
+					$result = $statement->fetchAll();							
+					foreach ($result as $row) {
+						$i++;
+						?>
+						<div class="item wow fadeInUp" >
+							<div class="thumb">
+								<div class="photo" style="background-image:url(<?php echo BASE_URL; ?>assets/uploads/<?php echo $row['photo']; ?>);"></div>
+							</div>
+							<div class="text">
+								<h3 style="font-size:24px"><a href="<?php echo BASE_URL.URL_SERVICE.$row['slug']; ?>"><?php echo $row['name']; ?></a></h3>
+								<!-- <?php echo $row['news_content_short']; ?> -->
+								<p class="about_button" style="margin-top:20px">
+								<a style="font-family: 'Fraunces', serif; font-size: 16px; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s; border: 2px solid black; color: black; padding: 10px 20px; border-radius: 35px; font-weight: 600;" href="<?php echo BASE_URL.URL_SERVICE.$row['slug']; ?>" class="btn btn-flat">Read More <i class="fa fa-arrow-circle-right" ></i></a>									
+							</p>
+							</div>
+							
+						</div>
+						<?php
+					}
+					?>
+					
+				</div>
+				<!-- News Carousel End -->
+
+			</div>
+		</div>
+	</div>
+</section>
+
 <?php endif; ?>
 
 
@@ -293,12 +489,183 @@ if(isset($_POST['form_contact']))
 		</div>
 	</div>
 </section>
+
+<?php
+	$statement = $pdo->prepare("SELECT * FROM tbl_settings WHERE id=1");
+	$statement->execute();
+	$result = $statement->fetchAll(PDO::FETCH_ASSOC);							
+	foreach ($result as $row) 
+	{
+		$contact_map_iframe = $row['contact_map_iframe'];
+	}
+?>
+<section class="contact-v1" style="background-color:black">
+	<div style="background-color:black">
+	<div class="container">
+		<!-- <div class="row">
+			<div class="col-md-12">
+				<div class="heading-normal">
+					<h2><?php echo CONTACT_FORM; ?></h2>
+				</div>
+			</div>
+		</div> -->
+
+	
+		<div style="background-color:black">
+		<div class="container">
+		<div class="row" style="margin-top:60px; margin-bottom:60px">
+			<div class="col-md-6">
+				<h2 style="font-family: 'Fraunces', serif; color:#ffd64a; font-size:40px; font-weight:900; margin-bottom:40px">
+					Still have queries?
+				</h2>
+				<p style="font-size:25px; line-height:40px; margin-bottom: 50px;">
+				leave us your query and we will get back to you soon.
+				</p>
+				<img src="<?php echo BASE_URL; ?>assets/uploads/file-23.png"  style="width:30%">
+
+
+			</div>
+			<div class="col-md-6" style="border: 2px solid white; border-radius:20px; padding:20px">
+
+			<?php
+// After form submit checking everything for email sending
+if(isset($_POST['form_contact']))
+{
+	$error_message = '';
+	$success_message = '';
+
+	// $statement = $pdo->prepare("SELECT * FROM tbl_setting_email WHERE id=1");
+	// $statement->execute();
+	// $result = $statement->fetchAll();                           
+	// foreach ($result as $row) {
+	//     $send_email_from  = $row['send_email_from'];
+	//     $receive_email_to = $row['receive_email_to'];
+	//     $smtp_host        = $row['smtp_host'];
+	//     $smtp_port        = $row['smtp_port'];
+	//     $smtp_username    = $row['smtp_username'];
+	//     $smtp_password    = $row['smtp_password'];
+	// }
+
+    $valid = 1;
+
+    if(empty($_POST['full_name']))
+    {
+        $valid = 0;
+        $error_message .= FULL_NAME_EMPTY_CHECK.'\n';
+    }
+
+    if(empty($_POST['phone']))
+    {
+        $valid = 0;
+        $error_message .= PHONE_EMPTY_CHECK.'\n';
+    }
+
+
+    if(empty($_POST['email']))
+    {
+        $valid = 0;
+        $error_message .= EMAIL_EMPTY_CHECK.'\n';
+    }
+    else
+    {
+    	// Email validation check
+        if(!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL))
+        {
+            $valid = 0;
+            $error_message .= EMAIL_VALID_CHECK.'\n';
+        }
+    }
+
+    if(empty($_POST['enroll']))
+    {
+        $valid = 0;
+        $error_message .= COMMENT_EMPTY_CHECK.'\n';
+    }
+
+    if($valid == 1)
+    {
+		// getting auto increment id
+        
+        // $error_message .= COMMENT_EMPTY_CHECK.'\n';
+		$statement = $pdo->prepare("SHOW TABLE STATUS LIKE 'tbl_register'");
+		$statement->execute();
+		$result = $statement->fetchAll();
+		foreach($result as $row) {
+			$ai_id=$row[10];
+		}
+		
+		// $phoneNumber = $_POST['country_code'] . $_POST['phone'];
+    	
+		// saving into the database
+		$statement = $pdo->prepare("INSERT INTO tbl_contactform (full_name, email,  phone,message) VALUES (?, ?, ?, ?)");
+		$statement->execute(array($_POST['full_name'],$_POST['email'], $_POST['phone'], $_POST['message']));
+		// echo "<script>alert('cdsvcfvf')</script>";
+        $message            =  "New Entry from Feedback page.";
+        $page = "<?php echo BASE_URL.'successstories.php' ?>";
+        $active  = 1;
+    
+        // $statement = $pdo->prepare("INSERT INTO tbl_notification (message, page, active) VALUES (?, ?, ?)");
+        // $statement->execute(array($message, $page, $active));
+
+
+    	$success_message = 'Thank You For Your Valuable Feedback.';
+
+    }
+}
+?>
+				
+				<?php
+				if($error_message != '') {
+					echo "<script>alert('".$error_message."')</script>";
+				}
+				if($success_message != '') {
+					echo "<script>alert('".$success_message."')</script>";
+				}
+				?>
+
+<!-- <?php echo BASE_URL.'success.php';  ?> -->
+				<form action="<?php echo BASE_URL.URL_PAGE.$_REQUEST['slug']; ?>" class="form-horizontal cform-1" method="post" enctype="multipart/form-data">
+					<div class="form-group">
+                        <div class="col-sm-12" >
+                            <input type="text" style="background-color:#605f5e; border-radius:10px; border:none; color:white !important;" class="form-control" placeholder="<?php echo FULL_NAME; ?>" name="full_name">
+                        </div>
+                    </div>
+                    
+					<div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="email" style="background-color:#605f5e; border-radius:10px; border:none; color:white !important;" class="form-control" placeholder="<?php echo EMAIL_ADDRESS; ?>" name="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="text" style="background-color:#605f5e; border-radius:10px; border:none; color:white !important;" class="form-control" placeholder="<?php echo PHONE_NUMBER; ?>" name="phone">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <textarea name="enroll" style="background-color:#605f5e; border-radius:10px; border:none; color:white !important;" class="form-control" cols="30" rows="10" placeholder="<?php echo MESSAGE; ?>"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+	                    <div class="col-sm-12" style="text-align:center">
+	                        <input type="submit" value="<?php echo SEND_MESSAGE; ?>" class="btn btn-success" style="background-color:black !important; border-radius:30px; width:40%; border:2px solid #ffd64a !important" name="form_contact">
+	                    </div>
+	                </div>
+				</form>
+			</div>
+			</div>
+			
+			
+		</div>
+	</div>
+</section>
 <?php endif; ?>
 
 
 
 <?php if($page_layout == 'Photo Gallery Page Layout'): ?>
-<section class="gallery">
+<section class="gallery" style="background-color:black">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -360,7 +727,62 @@ if(isset($_POST['form_contact']))
 
 			</div>
 		</div>
+
+		
+
+
 	</div>
+	<!-- News Start -->
+<section class="news-v1" style="background-color:#605f5e; margin-top:50px">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="heading wow fadeInUp">
+					<h2 style="text-transform: none; font-family: 'Fraunces', serif; color:white; font-size:50px; color:white !important;">Discover our latest insights and tips on</h2>
+					<p style="color:#ffd64a; font-family: 'Fraunces', serif; font-size:40px; font-weight:900; margin-top:20px">Hindi language learning</p>
+				
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				
+				<!-- News Carousel Start -->
+				<div class="news-carousel">
+
+					<?php
+					$i=0;
+					$statement = $pdo->prepare("SELECT * FROM tbl_news ORDER BY news_id DESC");
+					$statement->execute();
+					$result = $statement->fetchAll();							
+					foreach ($result as $row) {
+						$i++;
+						?>
+						<div class="item wow fadeInUp" >
+							<div class="thumb">
+								<div class="photo" style="background-image:url(<?php echo BASE_URL; ?>assets/uploads/<?php echo $row['photo']; ?>);"></div>
+							</div>
+							<div class="text">
+								<h3><a href="<?php echo BASE_URL.URL_NEWS.$row['news_slug']; ?>"><?php echo $row['news_title']; ?></a></h3>
+								<!-- <?php echo $row['news_content_short']; ?> -->
+								<p class="about_button" style="margin-top:20px">
+								<a style="font-family: 'Fraunces', serif; font-size: 16px; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s; border: 2px solid black; color: black; padding: 10px 20px; border-radius: 35px; font-weight: 600;" href="<?php echo BASE_URL.URL_NEWS.$row['news_slug']; ?>" class="btn btn-flat">Read More <i class="fa fa-arrow-circle-right" ></i></a>									
+							</p>
+							</div>
+							
+						</div>
+						<?php
+					}
+					?>
+					
+				</div>
+				<!-- News Carousel End -->
+
+			</div>
+		</div>
+	</div>
+</section>
+<!-- News End -->
 </section>
 <?php endif; ?>
 
@@ -474,6 +896,7 @@ if(isset($_POST['form_contact']))
 		
 
 		$statement = $pdo->prepare("SELECT
+									t1.news_id,
 								   t1.news_title,
 		                           t1.news_slug,
 		                           t1.news_content,
@@ -576,23 +999,34 @@ if(isset($_POST['form_contact']))
 							<?php
 							foreach ($result as $row) {
 								?>
-								<div class="post-item">
-									<div class="image-holder">
+								
+								<div class="<?php if ($row['news_id'] % 2 == 0) { echo "post-item"; } else { echo "post-itemcolor"; } ?>">
+								<!-- <?php echo $row['news_id']; ?> -->
+									<!-- <div class="image-holder">
 										<img class="img-responsive" src="<?php echo BASE_URL; ?>assets/uploads/<?php echo $row['photo']; ?>" alt="<?php echo $row['news_title']; ?>">
+									</div> -->
+									<div class="<?php if ($row['news_id'] % 2 == 0) { echo "blogflagdark"; } else { echo "blogflag"; } ?>">
+										<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);  font-size: 13px; font-weight:900; font-family: 'Lora', serif;">
+										<i class="fa fa-edit" ></i>
+											HAPPY LEARNERS
+										</div>
 									</div>
+
+									
 									<div class="text">
 										<div class="inner">
-											<h3><a href="<?php echo BASE_URL.URL_NEWS.$row['news_slug']; ?>"><?php echo $row['news_title']; ?></a></h3>
-											<ul class="status">
-												<li><i class="fa fa-tag"></i><?php echo CATEGORY_COLON; ?> <a href="<?php echo BASE_URL.URL_CATEGORY.$row['category_slug']; ?>"><?php echo $row['category_name']; ?></a></li>
-												<li><i class="fa fa-calendar"></i><?php echo POSTED_ON; ?> <?php echo $row['news_date']; ?></li>
-											</ul>
-											<p>
+											<h3 ><a href="<?php echo BASE_URL.URL_NEWS.$row['news_slug']; ?>" class="<?php if ($row['news_id'] % 2 == 0) { echo "blogheadingdark"; } else { echo "blogheading"; } ?>"><?php echo $row['news_title']; ?></a></h3>
+											
+											<p class="<?php if ($row['news_id'] % 2 == 0) { echo "blogpdark"; } else { echo "blogp"; } ?>">
 												<?php echo $row['news_content_short']; ?>
 											</p>
-											<p class="button">
-												<a href="<?php echo BASE_URL.URL_NEWS.$row['news_slug']; ?>"><?php echo READ_MORE; ?></a>
+											<p class="button  ">
+												<a href="<?php echo BASE_URL.URL_NEWS.$row['news_slug']; ?>" class="<?php if ($row['news_id'] % 2 == 0) { echo "blogbuttondark"; } else { echo "blogbutton"; } ?>"><?php echo READ_MORE; ?></a>
 											</p>
+											<ul class="status">
+												<!-- <li><i class="fa fa-tag"></i><?php echo CATEGORY_COLON; ?> <a href="<?php echo BASE_URL.URL_CATEGORY.$row['category_slug']; ?>"><?php echo $row['category_name']; ?></a></li> -->
+												<li class="<?php if ($row['news_id'] % 2 == 0) { echo "blogposteddark"; } else { echo "blogposted"; } ?>"><i class="fa fa-calendar"></i><?php echo POSTED_ON; ?> <?php echo $row['news_date']; ?></li>
+											</ul>
 										</div>
 									</div>
 								</div>

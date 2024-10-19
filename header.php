@@ -199,8 +199,8 @@ foreach ($result as $row)
 		ul.gallery-menu li.filter.active,
 		ul.gallery-menu li:hover,
 		.gallery .inner .icons-inner a,
-		.widget h4,
-		.widget-search button,
+		/* .widget h4, */
+		/* .widget-search button, */
 		.blog p.button a:hover,
 		.contact-v1 .cform-1 .btn-success {
 			background: #<?php echo $color; ?>!important;
@@ -221,7 +221,7 @@ foreach ($result as $row)
 		ul.gallery-menu li,
 		.widget ul li a:hover,
 		.blog .text ul.status li a,
-		.blog .text ul.status li,
+		/* .blog .text ul.status li, */
 		.blog h3 a:hover,
 		.heading-normal h2 {
 			color: #<?php echo $color; ?>!important;	
@@ -355,7 +355,7 @@ foreach ($result as $row)
 									
 
                                     echo '<li>';
-									if($row['menu_id']=='32') {$colorgr='margin-top:25px; display: inline-block; padding: 10px 20px; background-color:#ffd64a !important; color: black !important; border-radius: 15px; ' ;}
+									if($row['menu_id']=='56') {$colorgr='margin-top:25px; display: inline-block; padding: 10px 20px; background-color:#ffd64a !important; color: black !important; border-radius: 15px; ' ;}
                                     
                                     if($row['page_id'] == 0) {
                                         
