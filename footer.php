@@ -1,4 +1,4 @@
-	<?php
+<?php
 	$statement = $pdo->prepare("SELECT * FROM tbl_settings WHERE id=1");
 	$statement->execute();
 	$result = $statement->fetchAll(PDO::FETCH_ASSOC);							
@@ -158,10 +158,10 @@ This link will be active only for 24 hours.
 							<?php echo nl2br($footer_about); ?>
 						</p>
 						<!-- <h3><?php echo CONTACT_US; ?></h3> -->
-						<div class="contact-item">
+						<!-- <div class="contact-item">
 							<div class="icon"><i class="fa fa-map-marker" style="font-size:40px; color:#ffd64a"></i></div>
 							<div class="text" style="color:white"><?php echo $contact_address; ?></div>
-						</div>
+						</div> -->
 						<div class="contact-item" style="margin-top:20px">
 							<div class="icon"><i class="fa fa-phone" style="font-size:30px; color:#ffd64a; margin-top:7px"></i></div>
 							<div class="text" style="color:white"><?php echo $contact_phone; ?></div>
@@ -234,7 +234,7 @@ This link will be active only for 24 hours.
 							</div>
 					</div>
 					<div class="col-sm-6 col-md-3 col-lg-6 footer-col wow fadeInRight">
-						<h3 style=" color:#ffd64a">Cources</h3>
+						<h3 style=" color:#ffd64a">Courses</h3>
 						<!-- <?php
 						$i=0;
 						$statement = $pdo->prepare("SELECT * FROM tbl_news ORDER BY total_view DESC");
@@ -252,7 +252,7 @@ This link will be active only for 24 hours.
 						?> -->
 						<div class="news-item" style="margin-top:30px; color:black;">
 								<div class="news-title" >
-									<a href="<?php echo BASE_URL; ?>beginner-course.php" style="color:white">Biginner</a>
+									<a href="<?php echo BASE_URL; ?>beginner-course.php" style="color:white">Beginner</a>
 								</div>
 								<div class="news-title" >
 									<a href="<?php echo BASE_URL; ?>Intermediate-course.php" style="color:white">Intermediate</a>

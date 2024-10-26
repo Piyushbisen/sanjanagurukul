@@ -181,15 +181,15 @@ if($status == 'Inactive')
 		</div> -->
 
 		<div class="row" style="margin-bottom:50px">
-			<div class="col-md-6">
+			<!-- <div class="col-md-6">
 				<div class="google-map">
 					<?php echo $contact_map_iframe; ?>
 				</div>	
-			</div>
-			<div class="col-md-6">
+			</div> -->
+			<div class="col-md-12" style="align-items: center;">
 				
-				<ul>
-				<li style="display: flex; align-items: center; padding: 5px; margin-bottom: 60px;">
+				<ul >
+				<li style="display: flex; align-items: center; text-align: center; padding: 5px; margin-bottom: 30px;">
 					<span style="display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; background-color: #f4b609; border-radius: 50%;">
 						<i class="fa fa-phone-square" style="color: black; font-size: 25px;"></i>
 					</span>
@@ -203,12 +203,12 @@ if($status == 'Inactive')
 					<span style="margin-left: 30px; color:white; font-size:20px">xyz@sanjanagurukul.com</span>
 				</li>
 
-				<li style="display: flex; align-items: center; padding: 5px; margin-bottom: 60px;">
+				<!-- <li style="display: flex; align-items: center; padding: 5px; margin-bottom: 60px;">
 					<span style="display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; background-color: #f4b609; border-radius: 50%;">
 						<i class="fa fa-map-marker" style="color: black; font-size: 25px;"></i>
 					</span>
 					<span style="margin-left: 30px; color:white; font-size:20px">Kyalami Hills, Kyalami Estate Midrand, 1685</span>
-				</li>
+				</li> -->
 
 				</ul>
 				

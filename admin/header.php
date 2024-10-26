@@ -137,11 +137,11 @@ $cur_page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+
 			        </li>
 
 
-			        <li class="treeview <?php if( ($cur_page == 'language.php') ) {echo 'active';} ?>">
+			        <!-- <li class="treeview <?php if( ($cur_page == 'language.php') ) {echo 'active';} ?>">
 			          <a href="language.php">
 			            <i class="fa fa-hand-o-right"></i> <span>Language</span>
 			          </a>
-			        </li>
+			        </li> -->
 			        
 
 					<li class="treeview <?php if( ($cur_page == 'category-add.php')||($cur_page == 'category.php')||($cur_page == 'category-edit.php') || ($cur_page == 'news-add.php')||($cur_page == 'news.php')||($cur_page == 'news-edit.php') || ($cur_page == 'comment.php') ) {echo 'active';} ?>">
@@ -161,7 +161,7 @@ $cur_page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+
 
 										
 
-					<li class="treeview <?php if( ($cur_page == 'designation-add.php')||($cur_page == 'designation.php')||($cur_page == 'designation-edit.php') || ($cur_page == 'team-member-add.php')||($cur_page == 'team-member.php')||($cur_page == 'team-member-edit.php') ) {echo 'active';} ?>">
+					<!-- <li class="treeview <?php if( ($cur_page == 'designation-add.php')||($cur_page == 'designation.php')||($cur_page == 'designation-edit.php') || ($cur_page == 'team-member-add.php')||($cur_page == 'team-member.php')||($cur_page == 'team-member-edit.php') ) {echo 'active';} ?>">
 						<a href="#">
 							<i class="fa fa-hand-o-right"></i>
 							<span>Team Member</span>
@@ -173,7 +173,7 @@ $cur_page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+
 							<li><a href="designation.php"><i class="fa fa-circle-o"></i> Designation</a></li>
 							<li><a href="team-member.php"><i class="fa fa-circle-o"></i> Team Member</a></li>
 						</ul>
-					</li>
+					</li> -->
 
 					
 					<li class="treeview <?php if( ($cur_page == 'slider-add.php')||($cur_page == 'slider.php')||($cur_page == 'slider-edit.php') ) {echo 'active';} ?>">
@@ -182,17 +182,17 @@ $cur_page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+
 			          </a>
 			        </li>
 
-			        <li class="treeview <?php if( ($cur_page == 'testimonial-add.php')||($cur_page == 'testimonial.php')||($cur_page == 'testimonial-edit.php') ) {echo 'active';} ?>">
+			        <!-- <li class="treeview <?php if( ($cur_page == 'testimonial-add.php')||($cur_page == 'testimonial.php')||($cur_page == 'testimonial-edit.php') ) {echo 'active';} ?>">
 			          <a href="testimonial.php">
 			            <i class="fa fa-hand-o-right"></i> <span>Testimonial</span>
 			          </a>
-			        </li>
+			        </li> -->
 
-			        <li class="treeview <?php if( ($cur_page == 'partner-add.php')||($cur_page == 'partner.php')||($cur_page == 'partner-edit.php') ) {echo 'active';} ?>">
+			        <!-- <li class="treeview <?php if( ($cur_page == 'partner-add.php')||($cur_page == 'partner.php')||($cur_page == 'partner-edit.php') ) {echo 'active';} ?>">
 			          <a href="partner.php">
 			            <i class="fa fa-hand-o-right"></i> <span>Partner</span>
 			          </a>
-			        </li>
+			        </li> -->
 
 			        <li class="treeview <?php if( ($cur_page == 'service-add.php')||($cur_page == 'service.php')||($cur_page == 'service-edit.php') ) {echo 'active';} ?>">
 			          <a href="service.php">
@@ -228,8 +228,8 @@ $cur_page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+
 						<ul class="treeview-menu">
 							<li><a href="photo-category.php"><i class="fa fa-circle-o"></i> Photo Category</a></li>
 							<li><a href="photo.php"><i class="fa fa-circle-o"></i> Photo Gallery</a></li>
-							<li><a href="video-category.php"><i class="fa fa-circle-o"></i> Video Category</a></li>
-							<li><a href="video.php"><i class="fa fa-circle-o"></i> Video</a></li>
+							<!-- <li><a href="video-category.php"><i class="fa fa-circle-o"></i> Video Category</a></li>
+							<li><a href="video.php"><i class="fa fa-circle-o"></i> Video</a></li> -->
 						</ul>
 					</li>
 
@@ -261,7 +261,7 @@ $cur_page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+
 						</a>
 						<ul class="treeview-menu">
 							<li><a href="subscriber.php"><i class="fa fa-circle-o"></i> All Subscribers</a></li>
-							<li><a href="subscriber-email.php"><i class="fa fa-circle-o"></i> Email to Subscribers</a></li>
+							<!-- <li><a href="subscriber-email.php"><i class="fa fa-circle-o"></i> Email to Subscribers</a></li> -->
 						</ul>
 					</li>
 

@@ -819,7 +819,7 @@ foreach ($result as $row) {
 
 
 
-                            <h3>Team Member Section</h3>
+                            <!-- <h3>Team Member Section</h3>
 							<form class="form-horizontal" action="" method="post" enctype="multipart/form-data">
                             <div class="box box-info">
                                 <div class="box-body">
@@ -852,7 +852,7 @@ foreach ($result as $row) {
 									</div>
                                 </div>
                             </div>
-                            </form>
+                            </form> -->
 
 
                             <h3>Counter Section</h3>
@@ -934,7 +934,7 @@ foreach ($result as $row) {
 
 
 
-                            <h3>Testimonial Section</h3>
+                            <!-- <h3>Testimonial Section</h3>
 							<form class="form-horizontal" action="" method="post" enctype="multipart/form-data">
                             <div class="box box-info">
                                 <div class="box-body">
@@ -979,7 +979,7 @@ foreach ($result as $row) {
 									</div>
                                 </div>
                             </div>
-                            </form>
+                            </form> -->
 
 
 
@@ -1019,7 +1019,7 @@ foreach ($result as $row) {
                             </form>
 
 
-                            <h3>Partner Section</h3>
+                            <!-- <h3>Partner Section</h3>
 							<form class="form-horizontal" action="" method="post" enctype="multipart/form-data">
                             <div class="box box-info">
                                 <div class="box-body">
@@ -1052,7 +1052,7 @@ foreach ($result as $row) {
 									</div>
                                 </div>
                             </div>
-                            </form>
+                            </form> -->
 
 			
 

@@ -2255,9 +2255,9 @@ header.sticky .sf-menu li li a {
 	background: url(../images/about.jpg) no-repeat;
 	-webkit-background-size: contain;
 	background-size: cover;
-	padding-top:120px;
+	padding-top:80px;
 	padding-bottom: 120px;
-	height: 500px;
+	height: 300px;
 	position: relative;
 }
 
@@ -2279,7 +2279,7 @@ header.sticky .sf-menu li li a {
 }
 
 .banner-text {
-	text-align: left;
+	text-align: center;
 }
 
 .banner-text h1 {

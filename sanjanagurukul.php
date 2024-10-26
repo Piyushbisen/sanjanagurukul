@@ -45,7 +45,7 @@
             <div class="col-sm-6 col-md-4 " >
                 <div class="aboutitem" style=" border-radius:20px; ">
                     <div style="">
-                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-15.png" alt="">
+                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-38.png" alt="">
                     </div>
                     <div class="text" style="text-align:center" >
                         <h3 style="color:black; font-size:20px; margin-top:80px">Personalized Learning:
@@ -62,7 +62,7 @@
             <div class="col-sm-6 col-md-4" >
                 <div class="aboutitemgray" style=" border-radius:20px; ">
                 <div style="">
-                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-15.png" alt="">
+                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-39.png" alt="">
                     </div>
                     <div class="text" style="text-align:center" >
                         <h3 style="color:black; font-size:20px; margin-top:80px">Comprehensive Curriculum:
@@ -80,7 +80,7 @@
             <div class="col-sm-6 col-md-4" >
                 <div class="aboutitem" style=" border-radius:20px; ">
                 <div style="">
-                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-15.png" alt="">
+                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-40.png" alt="">
                     </div>
                     <div class="text" style="text-align:center" >
                         <h3 style="color:black; font-size:20px; margin-top:80px">Effective Learning Methods: 
@@ -98,7 +98,7 @@
             <div class="col-sm-6 col-md-4" >
                 <div class="aboutitemgray" style=" border-radius:20px; ">
                 <div style="">
-                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-15.png" alt="">
+                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-41.png" alt="">
                     </div>
                     <div class="text" style="text-align:center" >
                         <h3 style="color:black; font-size:20px; margin-top:80px">Immersive Learning: 
@@ -115,7 +115,7 @@
             <div class="col-sm-6 col-md-4" >
                 <div class="aboutitem" style=" border-radius:20px; ">
                 <div style="">
-                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-15.png" alt="">
+                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-42.png" alt="">
                     </div>
                     <div class="text" style="text-align:center" >
                         <h3 style="color:black; font-size:20px; margin-top:80px">Tailored Assessments: 
@@ -131,7 +131,7 @@
             <div class="col-sm-6 col-md-4" >
                 <div class="aboutitemgray" style=" border-radius:20px; ">
                 <div style="">
-                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-15.png" alt="">
+                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-43.png" alt="">
                     </div>
                     <div class="text" style="text-align:center" >
                         <h3 style="color:black; font-size:20px; margin-top:80px">Flexible Learning: 
@@ -145,9 +145,9 @@
 
             </div>
             <div class="col-sm-6 col-md-4" >
-                <div class="aboutitemgray" style=" border-radius:20px; ">
+                <div class="aboutitem" style=" border-radius:20px; ">
                 <div style="">
-                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-15.png" alt="">
+                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-44.png" alt="">
                     </div>
                     <div class="text" style="text-align:center" >
                         <h3 style="color:black; font-size:20px; margin-top:80px">Performance Opportunities:
@@ -161,9 +161,9 @@
 
             </div>
             <div class="col-sm-6 col-md-4" >
-                <div class="aboutitem" style=" border-radius:20px; ">
+                <div class="aboutitemgray" style=" border-radius:20px; ">
                 <div style="">
-                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-15.png" alt="">
+                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-45.png" alt="">
                     </div>
                     <div class="text" style="text-align:center" >
                         <h3 style="color:black; font-size:20px; margin-top:80px">Online Competitions:
@@ -178,9 +178,9 @@
 
             </div>
             <div class="col-sm-6 col-md-4" >
-                <div class="aboutitemgray" style=" border-radius:20px; ">
+                <div class="aboutitem" style=" border-radius:20px; ">
                 <div style="">
-                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-15.png" alt="">
+                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-46.png" alt="">
                     </div>
                     <div class="text" style="text-align:center" >
                         <h3 style="color:black; font-size:20px; margin-top:80px">Cultural Integration: 
@@ -212,19 +212,28 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	
     <div class="row" style="margin-left:0px; margin-right:0px;">
-            <div class="col-md-7">
-                <img src="<?php echo BASE_URL; ?>assets/uploads/file-16.png" style="width:100%; height: 700px;" alt="Your Image Description" class="img-fluid">
+            <div class="col-md-6" style="">
+                <div class="">
+                <div style="padding: 10px; clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 14% 51%); text-align: center; background: linear-gradient(to top, rgba(253, 186, 59, 1), rgba(255, 234, 164, 1)); color: black; width: 40%; height: 110px; position: absolute; top: 90%; left: 80%; transform: translate(-53%, -65%); font-size: 20px; font-weight: 900; font-family: 'Fraunces', serif; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    नमस्ते I’m <br>Sanjana Ahuja
+</div>
+
+                </div>
+                <div>
+                    <img src="<?php echo BASE_URL; ?>assets/uploads/file-47.png" style="width:100%; height: 640px;" alt="Your Image Description" class="img-fluid">
+                </div>
             </div>
-            <div class="col-md-5" style="background:#605f5e; padding:30px; min-height: 700px;">
-                <p style="color: white; font-size:18px; line-height:30px; font-family: 'Lora', serif !important;">Namaste,<br><br>
+            <div class="col-md-6" style="background:#605f5e; padding:30px; min-height: 620px;">
+                <p style="color: white; font-size:15px; line-height:30px; font-family: 'Lora', serif !important;">Namaste,<br><br>
                 I'm Sanjana Ahuja.<br>
                 Growing up in India studying Hindi and now based in South Africa, I noticed a growing need among parents living abroad to help their children learn Hindi or Sanskrit. Many of these parents spoke English so fluently at home that it became difficult to pass on their native language.<br>
                 Determined to address this challenge, I developed a comprehensive and engaging curriculum designed to make Hindi learning fun and effective for today's children. My passion is to help students become proficient in Hindi, enabling them to not only communicate with their grandparents but also to read, write, and confidently express themselves in the language.<br>
                 For non-native speakers, learning Hindi can be a valuable tool for connecting with loved ones and even pursuing business opportunities. Additionally, Hindi is a gateway to the rich spiritual and philosophical texts of India. By learning Hindi, individuals can gain a deeper understanding of these teachings and connect more meaningfully with their cultural heritage.    <br>
             </p>
             </div>
+        </div>
         </div>
 
 </section>

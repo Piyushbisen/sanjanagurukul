@@ -57,7 +57,7 @@ $statement->execute(array($updated_total_view,$_REQUEST['slug']));
 
 
 <!-- Banner Start -->
-<div class="page-banner page-banner-single" style="background:none;">
+<!-- <div class="page-banner page-banner-single" style="background:none;">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row">
@@ -68,7 +68,7 @@ $statement->execute(array($updated_total_view,$_REQUEST['slug']));
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 <!-- Banner End -->
 
 
@@ -89,27 +89,25 @@ $statement->execute(array($updated_total_view,$_REQUEST['slug']));
 									<img class="img-responsive" src="<?php echo BASE_URL; ?>assets/uploads/<?php echo $photo ?>" alt="<?php echo $news_title; ?>">
 								</div>
 								<div class="text text-single">
-									<h3><?php echo $news_title; ?></h3>
+									<h3 style="font-size:35px; color:white; text-transform:none"><?php echo $news_title; ?></h3>
 									<ul class="status">
-										<li><i class="fa fa-tag"></i><?php echo CATEGORY_COLON; ?> <a href="<?php echo BASE_URL.URL_CATEGORY.$category_slug; ?>"><?php echo $category_name; ?></a></li>
-										<li><i class="fa fa-calendar"></i><?php echo DATE; ?> <?php echo $news_date; ?></li>
+										<li style="color:#ffd64a"><i class="fa fa-tag"></i><?php echo CATEGORY_COLON; ?> <a href="<?php echo BASE_URL.URL_CATEGORY.$category_slug; ?>" style="color:#ffd64a !important"><?php echo $category_name; ?></a></li>
+										<li style="color:#ffd64a !important"><i class="fa fa-calendar"></i><?php echo DATE; ?> <?php echo $news_date; ?></li>
 									</ul>
 									<p>
 										<?php echo $news_content; ?>
 									</p>
 								</div>
 							</div>
-							<div class="row">
+							<!-- <div class="row">
 								<div class="col-md-12">
 									<h3><?php echo COMMENTS; ?></h3>
 									<?php
-									// Getting the full url of the current page
 									$final_url = BASE_URL.URL_NEWS.$_REQUEST['slug'];
 									?>
-									<!-- Facebook Comment Main Code (got from facebook website) -->
 									<div class="fb-comments" data-href="<?php echo $final_url; ?>" data-numposts="5"></div>
 								</div>
-							</div>
+							</div> -->
 							<!-- Post Item End -->
 
 						</div>

@@ -98,137 +98,163 @@
         </div>
 
         <p>
-            <h2>Location : <br> Course Taken :</h2><br>
-            We highly recommend Sanjana Gurukul to any parent looking for a professional, dynamic and effective tutoring service. Sanjana Ahuja is an excellent teacher. She is great at building confidence and keeping lessons fun and engaging through variety of activities that improve conversation, writing and reading skills. She has an amazing way of breaking things down so that they are understandable. With your guidance our son has developed fluency in Hindi language in a very short time. Thank you for your hard work and support.
-        </p><br>
-        <h2 style="color:#ffd64a">Medha Pravin Naikude</h2>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
+            <br><br>
+            We highly recommend Sanjana Gurukul to any parent looking for a professional, dynamic and effective tutoring service. Sanjana Ahuja is an excellent teacher. She is great at building confidence and keeping lessons fun and engaging through variety of activities that improve conversation, writing and reading skills. She has an amazing way of breaking things down so that they are understandable. With your guidance our son has developed fluency in Hindi language in a very short time. Thank you for your hard work and support.
+        </p><br>
+        <h2 style="color:#ffd64a">Monika & Lovkesh Arora</h2>
+        <h2>Location : </h2>
+        
     </div>
     <div class="masonry-itemcolored">
             <div class="quote-container" style="text-align:right">
             <i class="fa fa-quote-right" style="font-size:68px;color:black;"></i>
         </div>
-        <p>
-            <h2>Location : <br> Course Taken :</h2><br>
-            I live in United States and both my kids are born here in US. My husband and I really wanted our kids to speak in Hindi so the kids can stay connected to our roots. Then, someone told us about Sanjana that she’s a really good Hindi teacher. Since, the kids have joined her Hindi class; they have started talking in Hindi and started showing interest in learning Hindi. Sanjana is an excellent teacher, knowledgeable, friendly, very attentive, and concerned about students learning. My kids are enjoying every single minute of her class. I would highly recommend her to everyone.        
-        </p><br>
-            
-            <h2 style="color:black">Medha Pravin Naikude</h2>
+        <p style="color:black">
+
         <span class="fa fa-star" style="color:black; font-size:35px"></span>
         <span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
+        <br><br>
+            
+            I live in United States and both my kids are born here in US. My husband and I really wanted our kids to speak in Hindi so the kids can stay connected to our roots. Then, someone told us about Sanjana that she’s a really good Hindi teacher. Since, the kids have joined her Hindi class; they have started talking in Hindi and started showing interest in learning Hindi. Sanjana is an excellent teacher, knowledgeable, friendly, very attentive, and concerned about students learning. My kids are enjoying every single minute of her class. I would highly recommend her to everyone.        
+        </p><br>
+            
+            <h2 style="color:black">Mamta Bhatia            </h2>
+            <h2>Location : </h2><br>
         </div>
     <div class="masonry-item">
             <div class="quote-container" style="text-align:right">
             <i class="fa fa-quote-right" style="font-size:68px;color:#f4b609;"></i>
         </div>
         <p>
-            <h2>Location : <br> Course Taken :</h2><br>
-            Sanjana is a very calm and easy-going teacher with lots of patience. She has an interest in teaching Hindi and is dedicated. Being an older person, whose main language is English she encourages me in class and makes me feel very comfortable. She has an interest in her students and makes class very enjoyable.      
-            </p><br>
-            <h2 style="color:#ffd64a">Medha Pravin Naikude</h2>
+
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
+        <br><br>
+            
+            Sanjana is a very calm and easy-going teacher with lots of patience. She has an interest in teaching Hindi and is dedicated. Being an older person, whose main language is English she encourages me in class and makes me feel very comfortable. She has an interest in her students and makes class very enjoyable.      
+            </p><br>
+            <h2 style="color:#ffd64a">Suren Sooklal            </h2>
+            <h2>Location : </h2><br>
         </div>
     <div class="masonry-itemcolored">
             <div class="quote-container" style="text-align:right">
             <i class="fa fa-quote-right" style="font-size:68px;color:black;"></i>
         </div>
-        <p>
-            <h2>Location : <br> Course Taken :</h2><br>
-            I know of many kids who are learning Hindi from her and showing great results and improvement. We are really happy as, in a foreign land their children are learning to speak their national language. “Highly recommended”    
-            </p><br>
-            <h2 style="color:black">Medha Pravin Naikude</h2>
+        <p style="color:black">
+
         <span class="fa fa-star" style="color:black; font-size:35px"></span>
         <span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
+        <br><br>
+            
+            I know of many kids who are learning Hindi from her and showing great results and improvement. We are really happy as, in a foreign land their children are learning to speak their national language. “Highly recommended”    
+            </p><br>
+            <h2 style="color:black">Anita Sumani            </h2>
+            <h2>Location :<br>
         </div>
     <div class="masonry-item">
             <div class="quote-container" style="text-align:right">
             <i class="fa fa-quote-right" style="font-size:68px;color:#f4b609;"></i>
         </div>
         <p>
-            <h2>Location : <br> Course Taken :</h2><br>
-            Highly recommended. My daughter is attending her classes and I can see the changes in her because Teacher Sanjana teaches with so much commitment and passion.       
-            </p><br>
-            <h2 style="color:#ffd64a">Medha Pravin Naikude</h2>
+
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
+        <br><br>
+            
+            Highly recommended. My daughter is attending her classes and I can see the changes in her because Teacher Sanjana teaches with so much commitment and passion.       
+            </p><br>
+            <h2 style="color:#ffd64a">Medha Pravin Naikude</h2>
+            <h2>Location :</h2><br>
         </div>
    
     <div class="masonry-itemcolored">
             <div class="quote-container" style="text-align:right">
             <i class="fa fa-quote-right" style="font-size:68px;color:black;"></i>
         </div>
-        <p>
-            <h2>Location : <br> Course Taken :</h2><br>
-            I am 69 years old from Durban. South Africa I always want to learn Hindi language. With Sanjana’s unique and loving systematic teaching it became possible in January 2021. Thank you Sanjana
-            </p><br>
-            <h2 style="color:black">Medha Pravin Naikude</h2>
+        <p style="color:black">
+
         <span class="fa fa-star" style="color:black; font-size:35px"></span>
         <span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
+        <br><br>
+            
+            I am 69 years old from Durban. South Africa I always want to learn Hindi language. With Sanjana’s unique and loving systematic teaching it became possible in January 2021. Thank you Sanjana
+            </p><br>
+            <h2 style="color:black">Rwinder Soorae</h2>
+            <h2>Location : </h2><br>
         </div>
     <div class="masonry-item">
             <div class="quote-container" style="text-align:right">
             <i class="fa fa-quote-right" style="font-size:68px;color:#f4b609;"></i>
         </div>
         <p>
-            <h2>Location : <br> Course Taken :</h2><br>
-            We were looking for a good Hindi teacher for our 4-year-old and then we came across teacher Sanjana’s flyer on Facebook. After formal discussion we enrolled our son to start with his Hindi base. We would say that has been the best decision we took. The way she has comforted our little one with patience and developed interest in him for the subject is worth appreciation. With covid and limitations of online study practices we were little concerned initially as to how the learning will shape up, but all thanks to her she handled the varnmala phonic and writing so beautifully that we did not miss the actual classroom practice. She gives attention to every kid in the online classroom and makes sure kids have understood. She also understands Kids mood and make them understand the subject sometimes playfully being a kid herself, that is something praiseworthy. We can proudly say that our son is happily learning Hindi and he looks forward for the class and to meet his favourite teacher Sanjana. We as parents know one thing for sure that his love for Hindi learning is going to reach great heights under her expertise.        
-            </p><br>
-            <h2 style="color:#ffd64a">Medha Pravin Naikude</h2>
+
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
+        <br><br>
+            
+            We were looking for a good Hindi teacher for our 4-year-old and then we came across teacher Sanjana’s flyer on Facebook. After formal discussion we enrolled our son to start with his Hindi base. We would say that has been the best decision we took. The way she has comforted our little one with patience and developed interest in him for the subject is worth appreciation. With covid and limitations of online study practices we were little concerned initially as to how the learning will shape up, but all thanks to her she handled the varnmala phonic and writing so beautifully that we did not miss the actual classroom practice. She gives attention to every kid in the online classroom and makes sure kids have understood. She also understands Kids mood and make them understand the subject sometimes playfully being a kid herself, that is something praiseworthy. We can proudly say that our son is happily learning Hindi and he looks forward for the class and to meet his favourite teacher Sanjana. We as parents know one thing for sure that his love for Hindi learning is going to reach great heights under her expertise.        
+            </p><br>
+            <h2 style="color:#ffd64a">Jyoti & Ashwin Shrivastava            </h2>
+            <h2>Location : </h2><br>
         </div>
     <div class="masonry-itemcolored">
             <div class="quote-container" style="text-align:right">
             <i class="fa fa-quote-right" style="font-size:68px;color:black;"></i>
         </div>
-        <p>
-            <h2>Location : <br> Course Taken :</h2><br>
-            I am a 63 year old man who has a passion and love for all things India. I have visited the country numerous times and have decided to learn Hindi to help me on my next visit. I was lucky enough to come across Sanjana Gurukul’s profile offering tutorial classes in Hindi. Sanjana has a calming, sincere way of teaching. I have had 6 lessons to date and am amazed at my progress. She is extremely patient and has a genuine wish for her students to succeed. She is very encouraging, and her motivation is clear to see from the first lesson. I look forward to future classes and am very grateful to Sanjana for helping me achieve my language goals. All the best Sanjana and Thank you.       
-            </p><br>
-            <h2 style="color:black">Medha Pravin Naikude</h2>
+        <p style="color:black">
+
         <span class="fa fa-star" style="color:black; font-size:35px"></span>
         <span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
+        <br><br>
+            I am a 63 year old man who has a passion and love for all things India. I have visited the country numerous times and have decided to learn Hindi to help me on my next visit. I was lucky enough to come across Sanjana Gurukul’s profile offering tutorial classes in Hindi. Sanjana has a calming, sincere way of teaching. I have had 6 lessons to date and am amazed at my progress. She is extremely patient and has a genuine wish for her students to succeed. She is very encouraging, and her motivation is clear to see from the first lesson. I look forward to future classes and am very grateful to Sanjana for helping me achieve my language goals. All the best Sanjana and Thank you.       
+            </p><br>
+            <h2 style="color:black">Peter Stead            </h2>
+
+            <h2>Location : </h2><br>
         </div>
     <div class="masonry-item">
             <div class="quote-container" style="text-align:right">
             <i class="fa fa-quote-right" style="font-size:68px;color:#f4b609;"></i>
         </div>
         <p>
-            <h2>Location : <br> Course Taken :</h2><br>
-            I wanted to thank you for your hard work in the Hindi classes that you provide. Your patience and commitment to support my son Sagar during the Hindi lessons really means a lot. Your expertise in teaching Hindi and unique techniques makes it easier for kids to understand the fundamentals and it puts our minds at ease as you not only teach them but you make them practice the lessons as well and all this you do with such great care. I am really grateful to have you as my child’s teacher and wish you were teaching other subjects as well. .   
-            </p><br>
-            <h2 style="color:#ffd64a">Medha Pravin Naikude</h2>
+
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
         <span class="fa fa-star" style="color:#ffd64a; font-size:35px; margin-left:5px"></span>
+        <br><br>
+            
+            I wanted to thank you for your hard work in the Hindi classes that you provide. Your patience and commitment to support my son Sagar during the Hindi lessons really means a lot. Your expertise in teaching Hindi and unique techniques makes it easier for kids to understand the fundamentals and it puts our minds at ease as you not only teach them but you make them practice the lessons as well and all this you do with such great care. I am really grateful to have you as my child’s teacher and wish you were teaching other subjects as well. .   
+            </p><br>
+            <h2 style="color:#ffd64a">Geeta Ruwali            </h2>
+            <h2>Location :</h2><br>
 </p>
         </div>
 
@@ -358,7 +384,7 @@ if(isset($_POST['form_contact']))
 					echo "<script>alert('".$error_message."')</script>";
 				}
 				if($success_message != '') {
-					echo "<script>alert('".$success_message."')</script>";
+					echo "<script>alert('thank you for sharing your details. We will get back to you soon.')</script>";
 				}
 				?>
 

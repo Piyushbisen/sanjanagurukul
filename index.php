@@ -49,8 +49,8 @@ foreach ($result as $row) {
 				</p>
 				
 				<p class="button">
-					<a href="#" class="btn btn-flat">Contact Us</a>
-					<a href="#" class="btn btn-flat">Explore Courses</a>
+					<a href="<?php echo BASE_URL; ?>page/contact-us" class="btn btn-flat">Contact Us</a>
+					<a href="<?php echo BASE_URL; ?>custom-course.php" class="btn btn-flat">Explore Courses</a>
 
 				</p>
 								
@@ -117,7 +117,7 @@ foreach ($result as $row) {
 					<p style="font-size:22px;color:white; font-family: 'Fraunces', serif; margin-top:50px">Sanjana Gurukul is more than just an online language academy; it's a community dedicated to preserving and promoting the beauty of the Hindi language. We believe that learning Hindi is not just about acquiring a new skill, but also about connecting with your Indian heritage and culture.
 					Beyond the classroom, Sanjana Gurukul is a family of Hindi enthusiasts committed to preserving our mother tongue.</p>
 					<p class="about_button" style="margin-top:50px">
-						<a style="font-family: 'Fraunces', serif; font-size: 18px; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s; border: 2px solid #ffd64a; color: white; padding: 10px 20px; border-radius: 15px; font-weight: 600;" href="<?php echo $row['button_url']; ?>" class="btn btn-flat">Know More</a>									
+						<a style="font-family: 'Fraunces', serif; font-size: 18px; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s; border: 2px solid #ffd64a; color: white; padding: 10px 20px; border-radius: 15px; font-weight: 600;" href="<?php echo BASE_URL; ?>sanjanagurukul.php" class="btn btn-flat">Know More</a>									
 					</p>
 				</div>
 				
@@ -149,23 +149,28 @@ foreach ($result as $row) {
 			foreach ($result as $row) {
 				?>
 				<div class="col-sm-6 col-md-6 ser-item wow fadeInUp" >
-					<div class="item" style=" border-radius:20px; ">
-						<div class="photo" style="background-image:url(<?php echo BASE_URL; ?>assets/uploads/<?php echo $row['photo']; ?>); border-radius:20px;">
-						</div>
-						<div class="text">
-							<h3><a href="<?php echo BASE_URL.URL_SERVICE.$row['slug']; ?>"><?php echo $row['name']; ?></a></h3>
-							<?php if($row['id'] =='4' || $row['id'] =='5' || $row['id'] =='6'): ?>
-							<p class="duraration" style="font-weight:600; margin-top:20px"><i class="fa fa-play-circle-o" style="font-size:24px; margin-right:5px"></i> 12 weeks | <i class="fa fa-hourglass-half" style="font-size:24px; margin-right:5px;"></i> 12 classes per week</p>
-							<?php endif; ?>
-							<p>
-								<?php echo $row['short_description']; ?>
-							</p>
-							<p class="about_button" style="margin-top:10px; display:flex; justify-content:end;">
-								<a style="font-family: 'Fraunces', serif; font-size: 16px; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s; border: 2px solid black; color: black; padding: 10px 20px; border-radius: 15px; font-weight: 600;" href="#" class="btn btn-flat">Know More <i class="fa fa-arrow-circle-right" ></i></a>									
-							</p>
-						</div>
-						
+				<div class="item" style="border-radius:20px; min-height:542px; display: flex; flex-direction: column; justify-content: space-between;">
+					<div class="photo" style="background-image:url(<?php echo BASE_URL; ?>assets/uploads/<?php echo $row['photo']; ?>); border-radius:20px;"></div>
+					<div class="text">
+						<h3><a href="<?php echo BASE_URL.URL_SERVICE.$row['slug']; ?>"><?php echo $row['name']; ?></a></h3>
+						<?php if($row['id'] =='4' || $row['id'] =='5' || $row['id'] =='6'): ?>
+						<p class="duration" style="font-weight: 600; color: black; font-family: 'Fraunces', serif; font-size: 24px; display: flex; align-items: center; margin-top:0px">
+							<i class="fa fa-play-circle-o" style="font-size: 34px; margin-right: 2px;"></i> 
+							<span style="margin-left:10px; font-size:18px">12 weeks</span>
+							<span class="separator" style="background-color:black !important"></span>
+							<i class="fa fa-hourglass-half" style="font-size: 24px; margin-right: 2px;"></i> 
+							<span style="margin-left:10px; font-size:18px">2 classes per week</span>
+						</p> 
+						<?php endif; ?>
+						<p><?php echo $row['short_description']; ?></p>
 					</div>
+					<div class="knowmorebtn"> 
+						<p class="about_button" style="display:flex; justify-content:end; align-items:bottom; padding-bottom:20px; padding-right:20px; margin-top:0px">
+							<a style="font-family: 'Fraunces', serif; font-size: 16px; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s; border: 2px solid black; color: black; padding: 10px 20px; border-radius: 15px; font-weight: 600;" href="#" class="btn btn-flat">Know More <i class="fa fa-arrow-circle-right"></i></a>									
+						</p>
+					</div>
+				</div>
+
 				</div>
 				<?php
 			}
@@ -227,7 +232,7 @@ foreach ($result as $row) {
 					<span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
 					<span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
 					<span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
-					<span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
+					<span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span><br><br>
 					<p style="color:black; font-family: 'Fraunces', serif; font-size:16px">We were looking for a good Hindi teacher for our 4-year-old and then we came across teacher Sanjana’s flyer on Facebook. After formal discussion we enrolled our son to start with his Hindi base. We would say that has been the best decision we took. The way she has comforted our little one with patience and developed interest in him for the subject is worth appreciation. With covid and limitations of online study practices we were little concerned initially as to how the learning will shape up, but all thanks to her she handled the varnmala phonic and writing so beautifully that we did not miss the actual classroom practice. She gives attention to every kid in the online classroom and makes sure kids have understood. She also understands Kids mood and make them understand the subject sometimes playfully being a kid herself, that is something praiseworthy. We can proudly say that our son is happily learning Hindi and he looks forward for the class and to meet his favourite teacher Sanjana. We as parents know one thing for sure that his love for Hindi learning is going to reach great heights under her expertise.
 					</p>
 					<br>
@@ -239,10 +244,10 @@ foreach ($result as $row) {
 					<span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
 					<span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
 					<span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
-					<span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span>
+					<span class="fa fa-star" style="color:black; font-size:35px; margin-left:5px"></span><br><br>
 					<p style="color:black; font-family: 'Fraunces', serif; font-size:16px">I wanted to thank you for your hard work in the Hindi classes that you provide. Your patience and commitment to support my son Sagar during the Hindi lessons really means a lot. Your expertise in teaching Hindi and unique techniques makes it easier for kids to understand the fundamentals and it puts our minds at ease as you not only teach them but you make them practice the lessons as well and all this you do with such great care. I am really grateful to have you as my child’s teacher and wish you were teaching other subjects as well.</p>
 					<br>
-					<p style="color:black; font-family: 'Lora', serif; font-size:16px; font-style: italic; font-weight:700">Jyoti & Ashwin Shrivastava</p>
+					<p style="color:black; font-family: 'Lora', serif; font-size:16px; font-style: italic; font-weight:700">Geeta Ruwali<br>Scotland United Kingdom</p>
 
 				</div>
 

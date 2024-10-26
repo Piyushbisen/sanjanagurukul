@@ -46,16 +46,16 @@
             <div class="col-sm-6 col-md-4 " >
                 <div class="aboutitem" style=" border-radius:20px; ">
                     <div style="">
-                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-15.png" alt="">
+                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; border-radius:5px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-50.png" alt="">
                     </div>
-                    <div class="text" style="text-align:center" >
+                    <div class="text" style="text-align:center; min-height:355px" >
                         <h3 style="color:black; font-size:20px; margin-top:80px">Grammar Guides:
                             </h3>
                         
                         <p>Comprehensive guides to Hindi grammar rules and usage.
                         </p>
-                        <p class="about_button" style=" text-align:center">
-                        <button style="background-color:transparent !important;font-family: 'Fraunces', serif; font-size: 16px; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s; border: 2px solid black; color: black; padding: 10px 20px; border-radius: 15px; font-weight: 600;" 
+                        <p class="about_button" style=" text-align:center; ">
+                        <button style="margin-top:25px; background-color:transparent !important;font-family: 'Fraunces', serif; font-size: 16px; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s; border: 2px solid black; color: black; padding: 10px 20px; border-radius: 15px; font-weight: 600;" 
                             href="#" 
                             class="btn btn-flat download-btn" 
                             data-pdf="<?php echo BASE_URL; ?>assets/uploads/file-28.pdf">
@@ -69,22 +69,22 @@
             <div class="col-sm-6 col-md-4" >
                 <div class="aboutitem" style=" border-radius:20px; ">
                 <div style="">
-                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-15.png" alt="">
+                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; border-radius:5px;<?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-50.png" alt="">
                     </div>
-                    <div class="text" style="text-align:center" >
+                    <div class="text" style="text-align:center; min-height:355px" >
                         <h3 style="color:black; font-size:20px; margin-top:80px">Vocabulary Lists:
 
                             </h3>
                         
                         <p>Essential vocabulary words organized by topic or theme.
                         </p>
-                        <p class="about_button" style=" text-align:center">
-                        <button style="background-color:transparent !important; font-family: 'Fraunces', serif; font-size: 16px; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s; border: 2px solid black; color: black; padding: 10px 20px; border-radius: 15px; font-weight: 600;" 
-   href="#" 
-   class="btn btn-flat download-btn" 
-   data-pdf="<?php echo BASE_URL; ?>assets/uploads/file-28.pdf">
-   <i class="fa fa-download"></i> Download 
-</button>							</p>
+                        <p class="about_button" style=" text-align:center;">
+                        <button style="margin-top:25px; background-color:transparent !important; font-family: 'Fraunces', serif; font-size: 16px; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s; border: 2px solid black; color: black; padding: 10px 20px; border-radius: 15px; font-weight: 600;" 
+                            href="#" 
+                            class="btn btn-flat download-btn" 
+                            data-pdf="<?php echo BASE_URL; ?>assets/uploads/file-28.pdf">
+                            <i class="fa fa-download"></i> Download 
+                            </button>							</p>
                        
                     </div>
                 </div>
@@ -93,9 +93,9 @@
             <div class="col-sm-6 col-md-4" >
                 <div class="aboutitem" style=" border-radius:20px; ">
                 <div style="">
-                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-15.png" alt="">
+                        <img class="img-responsive" style="height:100px;width:90px; margin-left:20px; position:absolute; top:-15px; border-radius:5px; <?php echo $margint; ?>" src="<?php echo BASE_URL; ?>assets/uploads/file-50.png" alt="">
                     </div>
-                    <div class="text" style="text-align:center" >
+                    <div class="text" style="text-align:center; min-height:355px" >
                         <h3 style="color:black; font-size:20px; margin-top:80px">Practice Worksheets: 
 
                             </h3>
@@ -104,18 +104,18 @@
                         </p>
                         <p class="about_button" style=" text-align:center">
                         <button style="background-color:transparent !important; font-family: 'Fraunces', serif; font-size: 16px; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s; border: 2px solid black; color: black; padding: 10px 20px; border-radius: 15px; font-weight: 600;" 
-   href="#" 
-   class="btn btn-flat download-btn" 
-   data-pdf="<?php echo BASE_URL; ?>assets/uploads/file-28.pdf">
-   <i class="fa fa-download"></i> Download 
-</button>							</p>
+                            href="#" 
+                            class="btn btn-flat download-btn" 
+                            data-pdf="<?php echo BASE_URL; ?>assets/uploads/file-28.pdf">
+                            <i class="fa fa-download"></i> Download 
+                            </button>							</p>
                        
                     </div>
                     
                 </div>
 
             </div>
-            <div class="row" style="display:flex; justify-content:center">
+            <!-- <div class="row" style="display:flex; justify-content:center">
             <div class="col-sm-6 col-md-4" >
                 <div class="aboutitem" style=" border-radius:20px; ">
                 <div style="">
@@ -165,7 +165,7 @@
                     </div>
                 </div>
             </div>
-            </div>
+            </div> -->
 
         </div>
     </div>
@@ -290,13 +290,13 @@ if(isset($_POST['form_contact']))
 				<form id="downloadForm" action="<?php echo BASE_URL.'resources.php' ?>" class="form-horizontal cform-1" method="post" enctype="multipart/form-data">
 					<div class="form-group">
                         <div class="col-sm-12" >
-                            <input type="text" style="background-color:#605f5e; border-radius:10px; border:none; color:white !important;" class="form-control" placeholder="<?php echo FULL_NAME; ?>" name="full_name">
+                            <input type="text" style="background-color:#605f5e; border-radius:10px; border:none; color:white !important;" class="form-control" placeholder="<?php echo FULL_NAME; ?>" name="full_name" required>
                         </div>
                     </div>
                     
 					<div class="form-group">
                         <div class="col-sm-12">
-                            <input type="email" style="background-color:#605f5e; border-radius:10px; border:none; color:white !important;" class="form-control" placeholder="<?php echo EMAIL_ADDRESS; ?>" name="email">
+                            <input type="email" style="background-color:#605f5e; border-radius:10px; border:none; color:white !important;" class="form-control" placeholder="<?php echo EMAIL_ADDRESS; ?>" name="email" required>
                         </div>
                     </div>
                     <!-- Required Checkbox -->
@@ -394,6 +394,12 @@ if(isset($_POST['form_contact']))
     document.getElementById('downloadForm').addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent the default form submission
         
+        // Check if a PDF has been selected
+        if (!selectedPDF) {
+            alert('Please select a Resouce Categorie which you want before submitting.'); // Show alert if no PDF is selected
+            return; // Exit the function
+        }
+
         // Simulate form processing (e.g., via AJAX, or continue as per your setup)
         // After processing, trigger the PDF download
         if (selectedPDF) {
@@ -410,6 +416,7 @@ if(isset($_POST['form_contact']))
         selectedPDF = '';
     });
 </script>
+
 
 
 <?php require_once('footer.php'); ?>
