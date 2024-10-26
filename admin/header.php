@@ -251,6 +251,24 @@ $cur_page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+
 			          </a>
 			        </li>
 
+					<li class="treeview <?php if( ($cur_page == 'all-cources-from.php') ) {echo 'active';} ?>">
+			          <a href="all-cources-from.php">
+			            <i class="fa fa-hand-o-right"></i> <span>All Courses form Response</span>
+			          </a>
+			        </li>
+
+					<li class="treeview <?php if( ($cur_page == 'faq-from-response.php') ) {echo 'active';} ?>">
+			          <a href="faq-from-response.php">
+			            <i class="fa fa-hand-o-right"></i> <span>faq from response</span>
+			          </a>
+			        </li>
+
+					<li class="treeview <?php if( ($cur_page == 'contact-us-form.php') ) {echo 'active';} ?>">
+			          <a href="contact-us-form.php">
+			            <i class="fa fa-hand-o-right"></i> <span>Contact form</span>
+			          </a>
+			        </li>
+
 			        <li class="treeview <?php if( ($cur_page == 'subscriber.php')||($cur_page == 'subscriber-email.php') ) {echo 'active';} ?>">
 						<a href="#">
 							<i class="fa fa-hand-o-right"></i>

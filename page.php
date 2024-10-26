@@ -300,7 +300,7 @@ if(isset($_POST['form_contact']))
         }
     }
 
-    if(empty($_POST['enroll']))
+    if(empty($_POST['message']))
     {
         $valid = 0;
         $error_message .= COMMENT_EMPTY_CHECK.'\n';
@@ -311,7 +311,7 @@ if(isset($_POST['form_contact']))
 		// getting auto increment id
         
         // $error_message .= COMMENT_EMPTY_CHECK.'\n';
-		$statement = $pdo->prepare("SHOW TABLE STATUS LIKE 'tbl_register'");
+		$statement = $pdo->prepare("SHOW TABLE STATUS LIKE 'tbl_contactform'");
 		$statement->execute();
 		$result = $statement->fetchAll();
 		foreach($result as $row) {
@@ -332,7 +332,7 @@ if(isset($_POST['form_contact']))
         // $statement->execute(array($message, $page, $active));
 
 
-    	$success_message = 'Thank You For Your Valuable Feedback.';
+    	$success_message = 'Thank You We will conatct you soon.';
 
     }
 }
@@ -368,7 +368,7 @@ if(isset($_POST['form_contact']))
                     
                     <div class="form-group">
                         <div class="col-sm-12">
-                            <textarea name="enroll" style="background-color:#605f5e; border-radius:10px; border:none; color:white !important;" class="form-control" cols="30" rows="10" placeholder="<?php echo MESSAGE; ?>"></textarea>
+                            <textarea name="message" style="background-color:#605f5e; border-radius:10px; border:none; color:white !important;" class="form-control" cols="30" rows="10" placeholder="<?php echo MESSAGE; ?>"></textarea>
                         </div>
                     </div>
                     <div class="form-group">
@@ -576,7 +576,7 @@ if(isset($_POST['form_contact']))
         }
     }
 
-    if(empty($_POST['enroll']))
+    if(empty($_POST['message']))
     {
         $valid = 0;
         $error_message .= COMMENT_EMPTY_CHECK.'\n';
@@ -587,18 +587,21 @@ if(isset($_POST['form_contact']))
 		// getting auto increment id
         
         // $error_message .= COMMENT_EMPTY_CHECK.'\n';
-		$statement = $pdo->prepare("SHOW TABLE STATUS LIKE 'tbl_register'");
+		$statement = $pdo->prepare("SHOW TABLE STATUS LIKE 'tbl_faq_form_response'");
 		$statement->execute();
 		$result = $statement->fetchAll();
 		foreach($result as $row) {
 			$ai_id=$row[10];
 		}
+
+		
 		
 		// $phoneNumber = $_POST['country_code'] . $_POST['phone'];
     	
 		// saving into the database
-		$statement = $pdo->prepare("INSERT INTO tbl_contactform (full_name, email,  phone,message) VALUES (?, ?, ?, ?)");
+		$statement = $pdo->prepare("INSERT INTO tbl_faq_form_response (full_name, email,phone,message) VALUES (?, ?, ?, ?)");
 		$statement->execute(array($_POST['full_name'],$_POST['email'], $_POST['phone'], $_POST['message']));
+		// echo "<script>alert('test')</script>";
 		// echo "<script>alert('cdsvcfvf')</script>";
         $message            =  "New Entry from Feedback page.";
         $page = "<?php echo BASE_URL.'successstories.php' ?>";
@@ -644,7 +647,7 @@ if(isset($_POST['form_contact']))
                     
                     <div class="form-group">
                         <div class="col-sm-12">
-                            <textarea name="enroll" style="background-color:#605f5e; border-radius:10px; border:none; color:white !important;" class="form-control" cols="30" rows="10" placeholder="<?php echo MESSAGE; ?>"></textarea>
+                            <textarea name="message" style="background-color:#605f5e; border-radius:10px; border:none; color:white !important;" class="form-control" cols="30" rows="10" placeholder="<?php echo MESSAGE; ?>"></textarea>
                         </div>
                     </div>
                     <div class="form-group">
